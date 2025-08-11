@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as arrets from "../../../public/assets/infos-stations-v1.json";
+import * as arrets from "../../../public/assets/infos-stations-v2.json";
 
 export interface Arret {
   name : string,
@@ -7,14 +7,17 @@ export interface Arret {
   type : string,
   accessibility : string,
   audiblesignals : string,
-  lines : string[]
+  lines : string[],
+  opening_date : string
 }
 
 export interface Guess {
   station : Arret,
   ligne : string,
   ville : boolean,
-  name : string;
+  name : string,
+  opening_date : string,
+  correct_town : string
 }
 
 @Injectable({

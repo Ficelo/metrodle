@@ -1,35 +1,55 @@
 <div class="guess">
-  <div class="square station">
-    <p>{{station.name}}</p>
+  <div class="square station" style="animation-delay: 0ms;">
+    <p [appAutoFitTextDirective]="station.name" >{{station.name}}</p>
   </div>
 
-  <div class="square lines"
+  <div class="square lines flip"
+       style="animation-delay: 200ms;"
        [ngClass]="{
          'good': guess.ligne == 'good',
          'maybe': guess.ligne == 'maybe',
          'bad': guess.ligne == 'bad'
        }">
-    <p>{{station.lines.toString()}}</p>
+    <p [appAutoFitTextDirective]="station.lines.toString()">{{station.lines.toString()}}</p>
   </div>
 
-  <div class="square town"
+  <div class="square town flip"
+       style="animation-delay: 400ms;"
        [ngClass]="{
          'good': guess.ville,
          'bad': !guess.ville
        }">
-    <p>{{station.town}}</p>
+    <p [appAutoFitTextDirective]="station.town">{{station.town}}</p>
   </div>
 
-  <div class="square name"
+  <div class="square name flip"
+       style="animation-delay: 600ms;"
        [ngClass]="{
          'good': guess.name == 'good',
-         'bad': guess.name == 'more' || guess.name == 'less'
-
+         'later': guess.name == 'more',
+         'earlier': guess.name == 'less'
        }">
     <p>{{station.name.length}}</p>
   </div>
 
-  <div class="square"><p>?</p></div>
-  <div class="square"><p>?</p></div>
+  <div class="square town flip"
+       style="animation-delay: 800ms;"
+       [ngClass]="{
+         'good': station.town.includes('Paris') && guess.correct_town.includes('Paris') || !station.town.includes('Paris') && !guess.correct_town.includes('Paris'),
+         'bad': !station.town.includes('Paris') && guess.correct_town.includes('Paris') || station.town.includes('Paris') && !guess.correct_town.includes('Paris'),
+  }">
+    <p>{{(station.town.includes("Paris") ? "Dans Paris" : "Hors de Paris")}}</p>
+  </div>
+
+  <div class="square town flip"
+       style="animation-delay: 1000ms;"
+       [ngClass]="{
+        'earlier' : guess.opening_date == 'earlier',
+        'good' : guess.opening_date == 'good',
+        'later' : guess.opening_date == 'later',
+
+       }">
+    <p [appAutoFitTextDirective]="station.opening_date" >{{station.opening_date}}</p></div>
+
 
 </div>

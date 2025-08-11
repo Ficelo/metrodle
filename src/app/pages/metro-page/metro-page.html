@@ -11,7 +11,7 @@
       (completeMethod)="filterStations($event)"
       placeholder="Entrez le nom d'une station"
     ></p-auto-complete>
-    <p-button label="Confirmer" (click)="compareStation()"></p-button>
+    <p-button label="Confirmer" [disabled]="found" (click)="compareStation()"></p-button>
   </div>
 
   <div class="guesses">
@@ -19,9 +19,9 @@
       <div class="square"><p>Station</p></div>
       <div class="square"><p>Ligne</p></div>
       <div class="square"><p>Ville</p></div>
-      <div class="square"><p>Dans Paris</p></div>
       <div class="square"><p>Nom (taille)</p></div>
-      <div class="square"><p>Date de construction</p></div>
+      <div class="square"><p>Dans Paris</p></div>
+      <div class="square"><p>Date d' ouverture</p></div>
     </div>
     <div class="guesses-tries">
       <app-metro-guess *ngFor="let guess of guesses" [guess]="guess"></app-metro-guess>

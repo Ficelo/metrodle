@@ -6,6 +6,8 @@ import {Button} from 'primeng/button';
 import {MetroGuess} from '../../components/metro-guess/metro-guess';
 import {Arret, Guess, StationService} from '../../services/station.service';
 import {NgForOf} from '@angular/common';
+import {AutoFitTextDirective} from '../../directives/auto-fit-text.directive';
+import {SaveService} from '../../services/save.service';
 
 @Component({
   selector: 'app-metro-page',
@@ -15,7 +17,8 @@ import {NgForOf} from '@angular/common';
     FormsModule,
     Button,
     MetroGuess,
-    NgForOf
+    NgForOf,
+    AutoFitTextDirective
   ],
   templateUrl: './metro-page.html',
   standalone: true,
@@ -24,15 +27,16 @@ import {NgForOf} from '@angular/common';
 
 export class MetroPage {
 
-
   filteredStations : String[] = [];
   selectedStationName? : string;
+  found : boolean;
 
-  guesses : Guess[] = []
+  guesses : Guess[];
 
-
-
-  constructor(private stationService : StationService) {}
+  constructor(private stationService : StationService, private saveService : SaveService) {
+    this.found = this.saveService.getSaveData().found;
+    this.guesses = this.saveService.getSaveData().guesses;
+  }
 
   filterStations(event : {query : string}){
     const query = event.query.toLowerCase();
@@ -68,28 +72,50 @@ export class MetroPage {
     return "less";
   }
 
+
+
+  checkDate(selectedDate: string, correctDate: string): string {
+    const [sd, sm, sy] = selectedDate.split("-");
+    const [cd, cm, cy] = correctDate.split("-");
+
+    const selected = new Date(`${sy}-${sm}-${sd}`).getTime();
+    const correct = new Date(`${cy}-${cm}-${cd}`).getTime();
+
+    if (selected < correct) return "earlier";
+    if (selected === correct) return "good";
+    return "later";
+  }
+
   compareStation() {
-    // TODO : Ajouter une vérif pour tester si c'est bien un nom de station
-    if(this.selectedStationName) {
+
+    if(this.selectedStationName && this.filteredStations.includes(this.selectedStationName)) {
 
       const chosenStation = this.getArret(this.selectedStationName);
       const correctStation = this.stationService.getCorrectArret();
-      let newGuess : Guess = {station : chosenStation!, ligne: "", ville : false, name : ""};
+      let newGuess : Guess = {station : chosenStation!, ligne: "", ville : false, name : "", opening_date: "", correct_town : ""};
 
       console.log(chosenStation)
 
       if(chosenStation) {
-
-        // TODO : revoir comment ça c'est fait
         newGuess.ligne = this.checkLine(chosenStation.lines, correctStation.lines);
         newGuess.ville = (chosenStation.town == correctStation.town)
         newGuess.name = this.checkName(chosenStation.name, correctStation.name);
+        newGuess.correct_town = correctStation.town;
+        newGuess.opening_date = this.checkDate(chosenStation.opening_date, correctStation.opening_date);
+      }
+
+      let save = this.saveService.getSaveData();
+
+      if(chosenStation?.name == correctStation.name) {
+        save.found = true;
+        this.found = true;
       }
 
       this.guesses.unshift(newGuess);
+      save.guesses = this.guesses;
       this.selectedStationName = "";
 
-      console.log(this.guesses)
+      this.saveService.setSateData(save);
 
     }
   }
