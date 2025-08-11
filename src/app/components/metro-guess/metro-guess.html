@@ -1,0 +1,35 @@
+<div class="guess">
+  <div class="square station">
+    <p>{{station.name}}</p>
+  </div>
+
+  <div class="square lines"
+       [ngClass]="{
+         'good': guess.ligne == 'good',
+         'maybe': guess.ligne == 'maybe',
+         'bad': guess.ligne == 'bad'
+       }">
+    <p>{{station.lines.toString()}}</p>
+  </div>
+
+  <div class="square town"
+       [ngClass]="{
+         'good': guess.ville,
+         'bad': !guess.ville
+       }">
+    <p>{{station.town}}</p>
+  </div>
+
+  <div class="square name"
+       [ngClass]="{
+         'good': guess.name == 'good',
+         'bad': guess.name == 'more' || guess.name == 'less'
+
+       }">
+    <p>{{station.name.length}}</p>
+  </div>
+
+  <div class="square"><p>?</p></div>
+  <div class="square"><p>?</p></div>
+
+</div>

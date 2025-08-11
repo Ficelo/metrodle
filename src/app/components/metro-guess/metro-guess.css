@@ -1,0 +1,36 @@
+.guess {
+  display: flex;
+  gap: 8px;
+}
+
+.square {
+  width: 72px;
+  height: 72px;
+  aspect-ratio: 1 / 1;
+  border: 2px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  user-select: none;
+  padding: 4px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.good {
+  background-color: #4caf50;
+  color: white;
+}
+
+.maybe {
+  background-color: #ff9800;
+  color: white;
+}
+
+.bad {
+  background-color: #f44336;
+  color: white;
+}
+

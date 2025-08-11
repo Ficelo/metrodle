@@ -1,0 +1,99 @@
+.main-container {
+  max-width: 580px;
+  margin: 40px auto;
+  padding: 24px 20px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 6px;
+  color: #0078d4;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+p-auto-complete {
+  flex: 1;
+  max-width: 280px;
+}
+
+p-auto-complete input {
+  height: 38px;
+  border-radius: 6px;
+  border: 1.8px solid #ccc;
+  padding: 0 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+p-auto-complete input:focus {
+  outline: none;
+  border-color: #0078d4;
+  box-shadow: 0 0 6px #7ecfff88;
+}
+
+.categories, .guesses-tries {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.categories .square, .guesses-tries app-metro-guess .guess .square {
+  width: 72px;
+  aspect-ratio: 1 / 1;
+  border: 2px solid #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #eee;
+  user-select: none;
+  text-align: center;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.categories .square p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.guesses-tries app-metro-guess {
+  margin-bottom: 8px;
+}
+
+.guesses-tries {
+  flex-direction: column;
+}
+
+.guesses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
