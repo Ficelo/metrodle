@@ -31,7 +31,6 @@ export class StationService {
   constructor() {
     this.arretsData = Object.values(arrets) as Arret[];
     this.correctArret = this.generateStationOfTheDay();
-    console.log(this.correctArret);
   }
 
   getCorrectArret() : Arret {

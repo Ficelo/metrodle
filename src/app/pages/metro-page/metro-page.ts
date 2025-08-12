@@ -8,6 +8,7 @@ import {Arret, Guess, StationService} from '../../services/station.service';
 import {NgForOf} from '@angular/common';
 import {AutoFitTextDirective} from '../../directives/auto-fit-text.directive';
 import {SaveService} from '../../services/save.service';
+import {Dialog} from 'primeng/dialog';
 
 @Component({
   selector: 'app-metro-page',
@@ -18,7 +19,8 @@ import {SaveService} from '../../services/save.service';
     Button,
     MetroGuess,
     NgForOf,
-    AutoFitTextDirective
+    AutoFitTextDirective,
+    Dialog
   ],
   templateUrl: './metro-page.html',
   standalone: true,
@@ -30,11 +32,14 @@ export class MetroPage {
   filteredStations : String[] = [];
   selectedStationName? : string;
   found : boolean;
+  showDialog : boolean;
+  copyText : string = "";
 
   guesses : Guess[];
 
   constructor(private stationService : StationService, private saveService : SaveService) {
     this.found = this.saveService.getSaveData().found;
+    this.showDialog = this.found;
     this.guesses = this.saveService.getSaveData().guesses;
   }
 
@@ -72,8 +77,6 @@ export class MetroPage {
     return "less";
   }
 
-
-
   checkDate(selectedDate: string, correctDate: string): string {
     const [sd, sm, sy] = selectedDate.split("-");
     const [cd, cm, cy] = correctDate.split("-");
@@ -93,8 +96,6 @@ export class MetroPage {
       const chosenStation = this.getArret(this.selectedStationName);
       const correctStation = this.stationService.getCorrectArret();
       let newGuess : Guess = {station : chosenStation!, ligne: "", ville : false, name : "", opening_date: "", correct_town : ""};
-
-      console.log(chosenStation)
 
       if(chosenStation) {
         newGuess.ligne = this.checkLine(chosenStation.lines, correctStation.lines);
@@ -117,10 +118,42 @@ export class MetroPage {
 
       this.saveService.setSateData(save);
 
+      if(this.found) {
+        setTimeout(() => {this.showDialog = true;}, 1500)
+      }
+
     }
   }
 
+  createSquareString(guess: Guess): string {
+    let ligne = "";
 
+    if (guess.ligne == "good") ligne += "🟩";
+    if (guess.ligne == "maybe") ligne += "🟧";
+    if (guess.ligne == "bad") ligne += "🟥";
+
+    if (guess.ville) ligne += "🟩";
+    else ligne += "🟥";
+
+    if (guess.name == "good") ligne += "🟩";
+    else ligne += "🟥";
+
+    if (
+      (guess.station.town.includes("Paris") && guess.correct_town.includes("Paris")) ||
+      (!guess.station.town.includes("Paris") && !guess.correct_town.includes("Paris"))
+    ) ligne += "🟩";
+    else ligne += "🟥";
+
+    if (guess.opening_date == "good") ligne += "🟩";
+    else ligne += "🟥";
+
+    return ligne;
+  }
+
+  buildCopyText() {
+    this.copyText = this.guesses.map(g => this.createSquareString(g)).join("\n");
+    navigator.clipboard.writeText(this.copyText);
+  }
 
 }
 

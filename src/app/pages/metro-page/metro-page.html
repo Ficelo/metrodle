@@ -27,4 +27,12 @@
       <app-metro-guess *ngFor="let guess of guesses" [guess]="guess"></app-metro-guess>
     </div>
   </div>
+
+  <p-dialog [(visible)]="showDialog" class="dialog" closable="false">
+    <h3>Wahoo vous avez trouvé</h3>
+    <h6>Revenez demain pour une nouvelle station</h6>
+    <p *ngFor="let g of guesses" class="square-guesses" >{{createSquareString(g)}}</p>
+    <p-button styleClass="copyButton" label="Copier" (click)="buildCopyText()"></p-button>
+  </p-dialog>
+
 </div>
