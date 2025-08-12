@@ -1,0 +1,3637 @@
+{
+  "sevres babylone": {
+    "name": "Sèvres - Babylone",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10",
+      "12"
+    ],
+    "opening_date": "03-02-1934"
+  },
+  "bastille": {
+    "name": "Bastille",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5",
+      "1",
+      "8"
+    ],
+    "opening_date": "19-07-1900"
+  },
+  "villejuif leo lagrange": {
+    "name": "Villejuif Léo Lagrange",
+    "type": "metro",
+    "town": "Villejuif",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "28-02-1985"
+  },
+  "saint denis universite": {
+    "name": "Saint-Denis - Université",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "25-05-1998"
+  },
+  "richelieu drouot": {
+    "name": "Richelieu - Drouot",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9",
+      "8"
+    ],
+    "opening_date": "30-06-1928"
+  },
+  "reuilly diderot": {
+    "name": "Reuilly - Diderot",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "8"
+    ],
+    "opening_date": "20-08-1900"
+  },
+  "porte dauphine": {
+    "name": "Porte Dauphine",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "13-12-1900"
+  },
+  "pere lachaise": {
+    "name": "Père Lachaise",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3",
+      "2"
+    ],
+    "opening_date": "25-02-1903"
+  },
+  "palais royal musee du louvre": {
+    "name": "Palais Royal - Musée du Louvre",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "7"
+    ],
+    "opening_date": "25-04-1985"
+  },
+  "notre dame de lorette": {
+    "name": "Notre-Dame-de-Lorette",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "montparnasse bienvenue": {
+    "name": "Montparnasse Bienvenue",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12",
+      "13",
+      "6",
+      "4"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "michel ange molitor": {
+    "name": "Michel-Ange - Molitor",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10",
+      "9"
+    ],
+    "opening_date": "24-09-1937"
+  },
+  "maisons alfort stade": {
+    "name": "Maisons-Alfort - Stade",
+    "type": "metro",
+    "town": "Maisons-Alfort",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "19-09-1970"
+  },
+  "maisons alfort les juilliottes": {
+    "name": "Maisons-Alfort - Les Juilliottes",
+    "type": "metro",
+    "town": "Maisons-Alfort",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "24-04-1972"
+  },
+  "la motte picquet grenelle": {
+    "name": "La Motte-Picquet - Grenelle",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "6",
+      "10"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "javel andre citroen": {
+    "name": "Javel - André Citroën",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-09-1913"
+  },
+  "guy moquet": {
+    "name": "Guy Môquet",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "26-02-1911"
+  },
+  "gallieni": {
+    "name": "Gallieni",
+    "type": "metro",
+    "town": "Bagnolet",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "02-04-1971"
+  },
+  "eglise de pantin": {
+    "name": "Église de Pantin",
+    "type": "metro",
+    "town": "Pantin",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "12-10-1942"
+  },
+  "porte d'orleans": {
+    "name": "Porte d'Orléans",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "30-10-1909"
+  },
+  "charles de gaulle etoile": {
+    "name": "Charles de Gaulle - Etoile",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2",
+      "1",
+      "6"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "creteil universite": {
+    "name": "Créteil - Université",
+    "type": "metro",
+    "town": "Créteil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "09-09-1974"
+  },
+  "charenton ecoles": {
+    "name": "Charenton - Écoles",
+    "type": "metro",
+    "town": "Charenton-le-Pont",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-10-1942"
+  },
+  "censier daubenton": {
+    "name": "Censier - Daubenton",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "boulogne jean jaures": {
+    "name": "Boulogne Jean Jaurès",
+    "type": "metro",
+    "town": "Boulogne-Billancourt",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "03-10-1980"
+  },
+  "bobigny pantin raymond queneau": {
+    "name": "Bobigny-Pantin - Raymond Queneau",
+    "type": "metro",
+    "town": "Pantin",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "25-04-1985"
+  },
+  "daumesnil": {
+    "name": "Daumesnil",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6",
+      "8"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "croix de chavaux": {
+    "name": "Croix de Chavaux",
+    "type": "metro",
+    "town": "Montreuil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "14-10-1937"
+  },
+  "creteil prefecture": {
+    "name": "Créteil - Préfecture",
+    "type": "metro",
+    "town": "Créteil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "25-04-1985"
+  },
+  "aubervilliers pantin quatre chemins": {
+    "name": "Aubervilliers-Pantin Quatre Chemins",
+    "type": "metro",
+    "town": "Aubervilliers",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "04-10-1979"
+  },
+  "anatole france": {
+    "name": "Anatole France",
+    "type": "metro",
+    "town": "Levallois-Perret",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "24-09-1937"
+  },
+  "rue des boulets": {
+    "name": "Rue des Boulets",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "place de clichy": {
+    "name": "Place de Clichy",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2",
+      "13"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "monceau": {
+    "name": "Monceau",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "07-10-1902"
+  },
+  "colonel fabien": {
+    "name": "Colonel Fabien",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "stalingrad": {
+    "name": "Stalingrad",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2",
+      "7",
+      "5"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "la defense (grande arche)": {
+    "name": "La Défense (Grande Arche)",
+    "type": "metro",
+    "town": "Puteaux",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "01-04-1992"
+  },
+  "nation": {
+    "name": "Nation",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "9",
+      "6",
+      "2"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "gare de lyon": {
+    "name": "Gare de Lyon",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "14"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "george v": {
+    "name": "George V",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "13-08-1900"
+  },
+  "jules joffrin": {
+    "name": "Jules Joffrin",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-10-1912"
+  },
+  "porte de la chapelle": {
+    "name": "Porte de la Chapelle",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "pre saint gervais": {
+    "name": "Pré-Saint-Gervais",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b"
+    ],
+    "opening_date": "18-01-1911"
+  },
+  "danube": {
+    "name": "Danube",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b"
+    ],
+    "opening_date": "18-01-1911"
+  },
+  "concorde": {
+    "name": "Concorde",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "12",
+      "1"
+    ],
+    "opening_date": "13-08-1900"
+  },
+  "gaite": {
+    "name": "Gaîté",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "21-01-1937"
+  },
+  "basilique de saint denis": {
+    "name": "Basilique de Saint-Denis",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "porte de clichy": {
+    "name": "Porte de Clichy",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13",
+      "14"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "porte doree": {
+    "name": "Porte Dorée",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "republique": {
+    "name": "République",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3",
+      "5",
+      "9",
+      "11",
+      "8"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "la tour maubourg": {
+    "name": "La Tour-Maubourg",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "13-07-1913"
+  },
+  "kleber": {
+    "name": "Kléber",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "02-10-1900"
+  },
+  "lourmel": {
+    "name": "Lourmel",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "27-07-1937"
+  },
+  "denfert rochereau": {
+    "name": "Denfert-Rochereau",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6",
+      "4"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "cite": {
+    "name": "Cité",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "pasteur": {
+    "name": "Pasteur",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12",
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "quai de la gare": {
+    "name": "Quai de la Gare",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "saint michel": {
+    "name": "Saint-Michel",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-09-1910"
+  },
+  "saint sulpice": {
+    "name": "Saint-Sulpice",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "mouton duvernet": {
+    "name": "Mouton-Duvernet",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "30-10-1909"
+  },
+  "etienne marcel": {
+    "name": "Etienne Marcel",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "pierre et marie curie": {
+    "name": "Pierre et Marie Curie",
+    "type": "metro",
+    "town": "Ivry-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "01-05-1946"
+  },
+  "cadet": {
+    "name": "Cadet",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "pont neuf": {
+    "name": "Pont Neuf",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "16-04-1926"
+  },
+  "tolbiac": {
+    "name": "Tolbiac",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "07-03-1930"
+  },
+  "riquet": {
+    "name": "Riquet",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "jussieu": {
+    "name": "Jussieu",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "10"
+    ],
+    "opening_date": "26-04-1931"
+  },
+  "les gobelins": {
+    "name": "Les Gobelins",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "louis blanc": {
+    "name": "Louis Blanc",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "7b"
+    ],
+    "opening_date": "23-11-1910"
+  },
+  "miromesnil": {
+    "name": "Miromesnil",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13",
+      "9"
+    ],
+    "opening_date": "06-11-1902"
+  },
+  "buzenval": {
+    "name": "Buzenval",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "hotel de ville": {
+    "name": "Hôtel de Ville",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "11"
+    ],
+    "opening_date": "09-09-1974"
+  },
+  "richard lenoir": {
+    "name": "Richard-Lenoir",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "17-12-1906"
+  },
+  "picpus": {
+    "name": "Picpus",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "dupleix": {
+    "name": "Dupleix",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "chatelet": {
+    "name": "Châtelet",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "1",
+      "14",
+      "4",
+      "11"
+    ],
+    "opening_date": "06-08-1900"
+  },
+  "charles michels": {
+    "name": "Charles Michels",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "13-07-1913"
+  },
+  "balard": {
+    "name": "Balard",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "27-07-1937"
+  },
+  "porte de la villette": {
+    "name": "Porte de la Villette",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "saint georges": {
+    "name": "Saint-Georges",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "08-04-1911"
+  },
+  "saint jacques": {
+    "name": "Saint-Jacques",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "boulogne pont de saint cloud": {
+    "name": "Boulogne Pont de Saint-Cloud",
+    "type": "metro",
+    "town": "Boulogne-Billancourt",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "02-10-1981"
+  },
+  "gare du nord": {
+    "name": "Gare du Nord",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5",
+      "4"
+    ],
+    "opening_date": "25-04-1985"
+  },
+  "telegraphe": {
+    "name": "Télégraphe",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "28-04-1935"
+  },
+  "pyrenees": {
+    "name": "Pyrénées",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "28-04-1935"
+  },
+  "madeleine": {
+    "name": "Madeleine",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "14",
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "porte d'auteuil": {
+    "name": "Porte d'Auteuil",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-09-1913"
+  },
+  "cambronne": {
+    "name": "Cambronne",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "chateau rouge": {
+    "name": "Château Rouge",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "avron": {
+    "name": "Avron",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "02-04-1903"
+  },
+  "billancourt": {
+    "name": "Billancourt",
+    "type": "metro",
+    "town": "Boulogne-Billancourt",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "03-02-1934"
+  },
+  "place des fetes": {
+    "name": "Place des Fêtes",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b",
+      "11"
+    ],
+    "opening_date": "05-10-1942"
+  },
+  "gambetta": {
+    "name": "Gambetta",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3bis",
+      "3"
+    ],
+    "opening_date": "25-01-1905"
+  },
+  "trocadero": {
+    "name": "Trocadéro",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9",
+      "6"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "pont de sevres": {
+    "name": "Pont de Sèvres",
+    "type": "metro",
+    "town": "Boulogne-Billancourt",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "03-02-1934"
+  },
+  "la muette": {
+    "name": "La Muette",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "08-11-1922"
+  },
+  "porte de saint cloud": {
+    "name": "Porte de Saint-Cloud",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "26-02-1911"
+  },
+  "porte de champerret": {
+    "name": "Porte de Champerret",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "15-02-1911"
+  },
+  "opera": {
+    "name": "Opéra",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "3",
+      "8"
+    ]
+  },
+  "mairie d'issy": {
+    "name": "Mairie d'Issy",
+    "type": "metro",
+    "town": "Issy-les-Moulineaux",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "24-03-1934"
+  },
+  "michel bizot": {
+    "name": "Michel Bizot",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "pereire": {
+    "name": "Pereire",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "23-05-1910"
+  },
+  "maison blanche": {
+    "name": "Maison Blanche",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "14"
+    ],
+    "opening_date": "21-10-1902"
+  },
+  "villiers": {
+    "name": "Villiers",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2",
+      "3"
+    ],
+    "opening_date": "31-05-2022"
+  },
+  "jaures": {
+    "name": "Jaurès",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2",
+      "7b",
+      "5"
+    ],
+    "opening_date": "03-10-1980"
+  },
+  "saint lazare": {
+    "name": "Saint-Lazare",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "14",
+      "12",
+      "13",
+      "3"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "rennes": {
+    "name": "Rennes",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "garibaldi": {
+    "name": "Garibaldi",
+    "type": "metro",
+    "town": "Saint-Ouen",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "30-06-1952"
+  },
+  "vaneau": {
+    "name": "Vaneau",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-12-1923"
+  },
+  "rue du bac": {
+    "name": "Rue du Bac",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "marcel sembat": {
+    "name": "Marcel Sembat",
+    "type": "metro",
+    "town": "Boulogne-Billancourt",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "03-02-1934"
+  },
+  "saint ouen": {
+    "name": "Saint-Ouen",
+    "type": "metro",
+    "town": "Saint-Ouen",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "14-12-2020"
+  },
+  "mairie de saint ouen": {
+    "name": "Mairie de Saint-Ouen",
+    "type": "metro",
+    "town": "Saint-Ouen",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13",
+      "14"
+    ],
+    "opening_date": "14-12-2020"
+  },
+  "sentier": {
+    "name": "Sentier",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "20-11-1904"
+  },
+  "parmentier": {
+    "name": "Parmentier",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "rue saint maur": {
+    "name": "Rue Saint-Maur",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "mairie d'aubervilliers": {
+    "name": "Mairie d'Aubervilliers",
+    "type": "metro",
+    "town": "Aubervilliers",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-05-2022"
+  },
+  "simplon": {
+    "name": "Simplon",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "14-05-1908"
+  },
+  "commerce": {
+    "name": "Commerce",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "27-07-1937"
+  },
+  "pont marie (cite des arts)": {
+    "name": "Pont Marie (Cité des Arts)",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "16-04-1926"
+  },
+  "saint sebastien froissart": {
+    "name": "Saint-Sébastien - Froissart",
+    "type": "metro",
+    "town": "Paris 3e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "grands boulevards": {
+    "name": "Grands Boulevards",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "chateau d'eau": {
+    "name": "Château d'Eau",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "strasbourg saint denis": {
+    "name": "Strasbourg - Saint-Denis",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "4",
+      "9"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "louvre rivoli": {
+    "name": "Louvre - Rivoli",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "13-08-1900"
+  },
+  "ternes": {
+    "name": "Ternes",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "07-10-1902"
+  },
+  "rosny bois perrier": {
+    "name": "Rosny-Bois-Perrier",
+    "type": "metro",
+    "town": "Rosny-sous-Bois",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "romainville carnot": {
+    "name": "Romainville-Carnot",
+    "type": "metro",
+    "town": "Romainville",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "serge gainsbourg": {
+    "name": "Serge Gainsbourg",
+    "type": "metro",
+    "town": "Les Lilas",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "thiais orly​ (pont de rungis​)": {
+    "name": "Thiais - Orly​ (Pont de Rungis​)",
+    "type": "metro",
+    "town": "Thiais",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "villejuif gustave roussy": {
+    "name": "Villejuif - Gustave Roussy",
+    "type": "metro",
+    "town": "Villejuif",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "18-01-2025"
+  },
+  "mairie des lilas": {
+    "name": "Mairie des Lilas",
+    "type": "metro",
+    "town": "Les Lilas",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "17-02-1937"
+  },
+  "porte des lilas": {
+    "name": "Porte des Lilas",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3bis",
+      "11"
+    ],
+    "opening_date": "31-05-2022"
+  },
+  "montreuil hopital": {
+    "name": "Montreuil - Hôpital",
+    "type": "metro",
+    "town": "Noisy-le-Sec",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "hopital bicetre": {
+    "name": "Hôpital Bicêtre",
+    "type": "metro",
+    "town": "Le Kremlin-Bicêtre",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "les agnettes": {
+    "name": "Les Agnettes",
+    "type": "metro",
+    "town": "Asnières-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "14-06-2008"
+  },
+  "villejuif paul vaillant couturier": {
+    "name": "Villejuif Paul Vaillant-Couturier",
+    "type": "metro",
+    "town": "Villejuif",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "28-02-1985"
+  },
+  "aeroport d'orly": {
+    "name": "Aéroport d'Orly",
+    "type": "metro",
+    "town": "Paray-Vieille-Poste",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "temple": {
+    "name": "Temple",
+    "type": "metro",
+    "town": "Paris 3e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "bagneux lucie aubrac": {
+    "name": "Bagneux - Lucie Aubrac",
+    "type": "metro",
+    "town": "Bagneux",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "13-01-2022"
+  },
+  "funiculaire gare haute": {
+    "name": "Funiculaire Gare haute",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "false"
+  },
+  "funiculaire gare basse": {
+    "name": "Funiculaire Gare basse",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "false"
+  },
+  "filles du calvaire": {
+    "name": "Filles du Calvaire",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "bonne nouvelle": {
+    "name": "Bonne Nouvelle",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "9"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "gare d'austerlitz": {
+    "name": "Gare d'Austerlitz",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5",
+      "10"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "saint marcel": {
+    "name": "Saint-Marcel",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "02-06-1906"
+  },
+  "belleville": {
+    "name": "Belleville",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11",
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "voltaire": {
+    "name": "Voltaire",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "mairie de montrouge": {
+    "name": "Mairie de Montrouge",
+    "type": "metro",
+    "town": "Montrouge",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "23-03-2013"
+  },
+  "creteil l'echat": {
+    "name": "Créteil - L'Échat",
+    "type": "metro",
+    "town": "Créteil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "24-09-1973"
+  },
+  "reaumur sebastopol": {
+    "name": "Réaumur - Sébastopol",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3",
+      "4"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "place monge": {
+    "name": "Place Monge",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "michel ange auteuil": {
+    "name": "Michel-Ange - Auteuil",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9",
+      "10"
+    ],
+    "opening_date": "24-09-1937"
+  },
+  "marcadet poissonniers": {
+    "name": "Marcadet - Poissonniers",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12",
+      "4"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "lamarck caulaincourt": {
+    "name": "Lamarck - Caulaincourt",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-10-1912"
+  },
+  "jacques bonsergent": {
+    "name": "Jacques Bonsergent",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "17-12-1906"
+  },
+  "goncourt": {
+    "name": "Goncourt",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "28-04-1935"
+  },
+  "gare de l'est": {
+    "name": "Gare de l'Est",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "5",
+      "4"
+    ],
+    "opening_date": "20-06-1976"
+  },
+  "faidherbe chaligny": {
+    "name": "Faidherbe - Chaligny",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "eglise d'auteuil": {
+    "name": "Église d'Auteuil",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-09-1913"
+  },
+  "ecole militaire": {
+    "name": "École Militaire",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "13-07-1913"
+  },
+  "corentin celton": {
+    "name": "Corentin Celton",
+    "type": "metro",
+    "town": "Issy-les-Moulineaux",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "24-03-1934"
+  },
+  "corentin cariou": {
+    "name": "Corentin Cariou",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "chaussee d'antin la fayette": {
+    "name": "Chaussée d'Antin - La Fayette",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9",
+      "7"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "sully morland": {
+    "name": "Sully - Morland",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "03-06-1930"
+  },
+  "bibliotheque francois mitterrand": {
+    "name": "Bibliothèque François Mitterrand",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "15-10-1998"
+  },
+  "avenue emile zola": {
+    "name": "Avenue Émile Zola",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "13-07-1913"
+  },
+  "saint germain des pres": {
+    "name": "Saint-Germain-des-Prés",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "bobigny pablo picasso": {
+    "name": "Bobigny Pablo Picasso",
+    "type": "metro",
+    "town": "Bobigny",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "25-04-1985"
+  },
+  "bir hakeim": {
+    "name": "Bir-Hakeim",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "arts et metiers": {
+    "name": "Arts et Métiers",
+    "type": "metro",
+    "town": "Paris 3e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11",
+      "3"
+    ],
+    "opening_date": "02-10-1981"
+  },
+  "courcelles": {
+    "name": "Courcelles",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "07-10-1902"
+  },
+  "blanche": {
+    "name": "Blanche",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "21-10-1902"
+  },
+  "porte de vincennes": {
+    "name": "Porte de Vincennes",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "19-07-1900"
+  },
+  "notre dame des champs": {
+    "name": "Notre-Dame des Champs",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "louise michel": {
+    "name": "Louise Michel",
+    "type": "metro",
+    "town": "Levallois-Perret",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "24-09-1937"
+  },
+  "volontaires": {
+    "name": "Volontaires",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "pigalle": {
+    "name": "Pigalle",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12",
+      "2"
+    ],
+    "opening_date": "07-10-1902"
+  },
+  "front populaire": {
+    "name": "Front Populaire",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "18-12-2012"
+  },
+  "wagram": {
+    "name": "Wagram",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "23-05-1910"
+  },
+  "saint francois xavier": {
+    "name": "Saint-François-Xavier",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "30-12-1923"
+  },
+  "ecole veterinaire de maisons alfort": {
+    "name": "Ecole Vétérinaire de Maisons-Alfort",
+    "type": "metro",
+    "town": "Maisons-Alfort",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "19-09-1970"
+  },
+  "porte de saint ouen": {
+    "name": "Porte de Saint-Ouen",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "26-02-1911"
+  },
+  "porte de vanves": {
+    "name": "Porte de Vanves",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "21-01-1937"
+  },
+  "plaisance": {
+    "name": "Plaisance",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "21-01-1937"
+  },
+  "varenne": {
+    "name": "Varenne",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "30-12-1923"
+  },
+  "bercy": {
+    "name": "Bercy",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14",
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "felix faure": {
+    "name": "Félix Faure",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "27-07-1937"
+  },
+  "raspail": {
+    "name": "Raspail",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4",
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "porte d'ivry": {
+    "name": "Porte d'Ivry",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "26-04-1931"
+  },
+  "porte de choisy": {
+    "name": "Porte de Choisy",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "07-03-1930"
+  },
+  "mairie de clichy": {
+    "name": "Mairie de Clichy",
+    "type": "metro",
+    "town": "Clichy",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "03-05-1980"
+  },
+  "chatillon montrouge": {
+    "name": "Châtillon-Montrouge",
+    "type": "metro",
+    "town": "Châtillon",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "09-11-1976"
+  },
+  "malesherbes": {
+    "name": "Malesherbes",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "23-05-1910"
+  },
+  "dugommier": {
+    "name": "Dugommier",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "saint fargeau": {
+    "name": "Saint-Fargeau",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3bis"
+    ],
+    "opening_date": "27-11-1921"
+  },
+  "tuileries": {
+    "name": "Tuileries",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "19-07-1900"
+  },
+  "place d'italie": {
+    "name": "Place d'Italie",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7",
+      "5",
+      "6"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "nationale": {
+    "name": "Nationale",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "sevres lecourbe": {
+    "name": "Sèvres-Lecourbe",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "havre caumartin": {
+    "name": "Havre-Caumartin",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9",
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "breguet sabin": {
+    "name": "Bréguet-Sabin",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "31-12-1906"
+  },
+  "abbesses": {
+    "name": "Abbesses",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-10-1912"
+  },
+  "bel air": {
+    "name": "Bel-Air",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "saint augustin": {
+    "name": "Saint-Augustin",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "27-05-1923"
+  },
+  "porte de charenton": {
+    "name": "Porte de Charenton",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "porte de montreuil": {
+    "name": "Porte de Montreuil",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "porte de pantin": {
+    "name": "Porte de Pantin",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "12-10-1942"
+  },
+  "porte d'italie": {
+    "name": "Porte d'Italie",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "07-03-1930"
+  },
+  "maraichers": {
+    "name": "Maraîchers",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "odeon": {
+    "name": "Odéon",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10",
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "rambuteau": {
+    "name": "Rambuteau",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "28-04-1935"
+  },
+  "pelleport": {
+    "name": "Pelleport",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3bis"
+    ],
+    "opening_date": "27-11-1921"
+  },
+  "pont cardinet": {
+    "name": "Pont Cardinet",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "14-12-2020"
+  },
+  "cour saint emilion": {
+    "name": "Cour Saint-Emilion",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "15-10-1998"
+  },
+  "saint philippe du roule": {
+    "name": "Saint-Philippe-du-Roule",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "27-05-1923"
+  },
+  "saint denis pleyel": {
+    "name": "Saint-Denis - Pleyel",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "coteaux beauclair": {
+    "name": "Coteaux Beauclair",
+    "type": "metro",
+    "town": "Rosny-sous-Bois",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "la dhuys": {
+    "name": "La Dhuys",
+    "type": "metro",
+    "town": "Rosny-sous-Bois",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "13-06-2024"
+  },
+  "chevilly larue​ (marche international​)": {
+    "name": "Chevilly-Larue​ (Marché International​)",
+    "type": "metro",
+    "town": "Chevilly-Larue",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "l'hay les roses": {
+    "name": "L'Haÿ-les-Roses",
+    "type": "metro",
+    "town": "L'Haÿ-les-Roses",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "quai de la rapee": {
+    "name": "Quai de la Rapée",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "13-07-1906"
+  },
+  "trinite d'estienne d'orves": {
+    "name": "Trinité - d'Estienne d'Orves",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "rue de la pompe": {
+    "name": "Rue de la Pompe",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "08-11-1922"
+  },
+  "malakoff plateau de vanves": {
+    "name": "Malakoff - Plateau de Vanves",
+    "type": "metro",
+    "town": "Malakoff",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "09-11-1976"
+  },
+  "gabriel peri": {
+    "name": "Gabriel Péri",
+    "type": "metro",
+    "town": "Asnières-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "03-05-1980"
+  },
+  "franklin d. roosevelt": {
+    "name": "Franklin D. Roosevelt",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1",
+      "9"
+    ],
+    "opening_date": "24-06-2024"
+  },
+  "cluny la sorbonne": {
+    "name": "Cluny - La Sorbonne",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "champs elysees clemenceau": {
+    "name": "Champs-Élysées - Clemenceau",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13",
+      "1"
+    ],
+    "opening_date": "19-07-1900"
+  },
+  "barbes rochechouart": {
+    "name": "Barbès - Rochechouart",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4",
+      "2"
+    ],
+    "opening_date": "26-03-1903"
+  },
+  "alma marceau": {
+    "name": "Alma - Marceau",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "27-05-1923"
+  },
+  "le peletier": {
+    "name": "Le Peletier",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "06-06-1911"
+  },
+  "philippe auguste": {
+    "name": "Philippe Auguste",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "couronnes": {
+    "name": "Couronnes",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "victor hugo": {
+    "name": "Victor Hugo",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "13-12-1900"
+  },
+  "esplanade de la defense": {
+    "name": "Esplanade de la Défense",
+    "type": "metro",
+    "town": "Courbevoie",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "01-04-1992"
+  },
+  "porte maillot": {
+    "name": "Porte Maillot",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "19-07-1900"
+  },
+  "saint paul (le marais)": {
+    "name": "Saint-Paul (Le Marais)",
+    "type": "metro",
+    "town": "Paris 4e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "06-08-1900"
+  },
+  "porte de bagnolet": {
+    "name": "Porte de Bagnolet",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "02-04-1971"
+  },
+  "botzaris": {
+    "name": "Botzaris",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b"
+    ],
+    "opening_date": "18-01-1911"
+  },
+  "saint denis porte de paris": {
+    "name": "Saint-Denis - Porte de Paris",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "02-10-1981"
+  },
+  "duroc": {
+    "name": "Duroc",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13",
+      "10"
+    ],
+    "opening_date": "30-12-1923"
+  },
+  "pernety": {
+    "name": "Pernety",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "21-01-1937"
+  },
+  "la fourche": {
+    "name": "La Fourche",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "26-02-1911"
+  },
+  "ledru rollin": {
+    "name": "Ledru-Rollin",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "glaciere": {
+    "name": "Glacière",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "invalides": {
+    "name": "Invalides",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8",
+      "13"
+    ],
+    "opening_date": "13-07-1913"
+  },
+  "alesia": {
+    "name": "Alésia",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "30-10-1909"
+  },
+  "jasmin": {
+    "name": "Jasmin",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "08-11-1922"
+  },
+  "pont de neuilly": {
+    "name": "Pont de Neuilly",
+    "type": "metro",
+    "town": "Neuilly-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "29-04-1937"
+  },
+  "vavin": {
+    "name": "Vavin",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "chateau landon": {
+    "name": "Château Landon",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "solferino": {
+    "name": "Solférino",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "mabillon": {
+    "name": "Mabillon",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "10-03-1925"
+  },
+  "chevaleret": {
+    "name": "Chevaleret",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "01-03-1909"
+  },
+  "boissiere": {
+    "name": "Boissière",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "02-10-1900"
+  },
+  "assemblee nationale": {
+    "name": "Assemblée Nationale",
+    "type": "metro",
+    "town": "Paris 7e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "corvisart": {
+    "name": "Corvisart",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "robespierre": {
+    "name": "Robespierre",
+    "type": "metro",
+    "town": "Montreuil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "14-10-1937"
+  },
+  "iena": {
+    "name": "Iéna",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "27-05-1923"
+  },
+  "exelmans": {
+    "name": "Exelmans",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "08-11-1922"
+  },
+  "charonne": {
+    "name": "Charonne",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "saint ambroise": {
+    "name": "Saint-Ambroise",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "10-12-1933"
+  },
+  "porte de versailles": {
+    "name": "Porte de Versailles",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "mairie de montreuil": {
+    "name": "Mairie de Montreuil",
+    "type": "metro",
+    "town": "Montreuil",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "14-10-1937"
+  },
+  "liberte": {
+    "name": "Liberté",
+    "type": "metro",
+    "town": "Charenton-le-Pont",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-10-1942"
+  },
+  "convention": {
+    "name": "Convention",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "olympiades": {
+    "name": "Olympiades",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14"
+    ],
+    "opening_date": "26-06-2007"
+  },
+  "pointe du lac": {
+    "name": "Pointe du Lac",
+    "type": "metro",
+    "town": "Créteil",
+    "accessibility": "false",
+    "audiblesignals": "unknown",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "08-10-2011"
+  },
+  "aime cesaire": {
+    "name": "Aimé Césaire",
+    "type": "metro",
+    "town": "Aubervilliers",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "31-05-2022"
+  },
+  "boucicaut": {
+    "name": "Boucicaut",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "27-07-1937"
+  },
+  "saint placide": {
+    "name": "Saint-Placide",
+    "type": "metro",
+    "town": "Paris 6e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "09-01-1910"
+  },
+  "vaugirard": {
+    "name": "Vaugirard",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "barbara": {
+    "name": "Barbara",
+    "type": "metro",
+    "town": "Bagneux",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "13-01-2022"
+  },
+  "bourse": {
+    "name": "Bourse",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "passy": {
+    "name": "Passy",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "06-11-1903"
+  },
+  "la chapelle": {
+    "name": "La Chapelle",
+    "type": "metro",
+    "town": "Paris 10e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "maubert mutualite": {
+    "name": "Maubert - Mutualité",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "15-02-1930"
+  },
+  "marx dormoy": {
+    "name": "Marx Dormoy",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "23-08-1916"
+  },
+  "malakoff rue etienne dolet": {
+    "name": "Malakoff - Rue Etienne Dolet",
+    "type": "metro",
+    "town": "Malakoff",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "09-11-1976"
+  },
+  "les sablons": {
+    "name": "Les Sablons",
+    "type": "metro",
+    "town": "Neuilly-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "29-04-1937"
+  },
+  "la courneuve 8 mai 1945": {
+    "name": "La Courneuve - 8 Mai 1945",
+    "type": "metro",
+    "town": "La Courneuve",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "06-05-1987"
+  },
+  "edgar quinet": {
+    "name": "Edgar Quinet",
+    "type": "metro",
+    "town": "Paris 14e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "6"
+    ],
+    "opening_date": "24-04-1906"
+  },
+  "carrefour pleyel": {
+    "name": "Carrefour Pleyel",
+    "type": "metro",
+    "town": "Saint-Denis",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "30-06-1952"
+  },
+  "cardinal lemoine": {
+    "name": "Cardinal Lemoine",
+    "type": "metro",
+    "town": "Paris 5e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "26-04-1931"
+  },
+  "buttes chaumont": {
+    "name": "Buttes Chaumont",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b"
+    ],
+    "opening_date": "13-02-1912"
+  },
+  "asnieres gennevilliers les courtilles": {
+    "name": "Asnières - Gennevilliers Les Courtilles",
+    "type": "metro",
+    "town": "Gennevilliers",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "14-06-2008"
+  },
+  "alexandre dumas": {
+    "name": "Alexandre Dumas",
+    "type": "metro",
+    "town": "Paris 20e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "saint mande": {
+    "name": "Saint-Mandé",
+    "type": "metro",
+    "town": "Saint-Mandé",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "24-03-1934"
+  },
+  "chateau de vincennes": {
+    "name": "Château de Vincennes",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "24-03-1934"
+  },
+  "berault": {
+    "name": "Bérault",
+    "type": "metro",
+    "town": "Vincennes",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "24-03-1934"
+  },
+  "pont de levallois becon": {
+    "name": "Pont de Levallois - Bécon",
+    "type": "metro",
+    "town": "Levallois-Perret",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "24-09-1937"
+  },
+  "europe": {
+    "name": "Europe",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "19-10-1904"
+  },
+  "laumiere": {
+    "name": "Laumière",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "12-10-1942"
+  },
+  "hoche": {
+    "name": "Hoche",
+    "type": "metro",
+    "town": "Pantin",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "12-10-1942"
+  },
+  "bolivar": {
+    "name": "Bolivar",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7b"
+    ],
+    "opening_date": "18-07-1911"
+  },
+  "liege": {
+    "name": "Liège",
+    "type": "metro",
+    "town": "Paris 8e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "26-02-1911"
+  },
+  "chemin vert": {
+    "name": "Chemin Vert",
+    "type": "metro",
+    "town": "Paris 3e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "montgallet": {
+    "name": "Montgallet",
+    "type": "metro",
+    "town": "Paris 12e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "8"
+    ],
+    "opening_date": "05-05-1931"
+  },
+  "les halles": {
+    "name": "Les Halles",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "le kremlin bicetre": {
+    "name": "Le Kremlin-Bicêtre",
+    "type": "metro",
+    "town": "Le Kremlin-Bicêtre",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "10-12-1982"
+  },
+  "crimee": {
+    "name": "Crimée",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "pyramides": {
+    "name": "Pyramides",
+    "type": "metro",
+    "town": "Paris 1er",
+    "accessibility": "true",
+    "audiblesignals": "true",
+    "lines": [
+      "14",
+      "7"
+    ],
+    "opening_date": "01-07-1916"
+  },
+  "oberkampf": {
+    "name": "Oberkampf",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5",
+      "9"
+    ],
+    "opening_date": "15-01-1907"
+  },
+  "mirabeau": {
+    "name": "Mirabeau",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-09-1913"
+  },
+  "jourdain": {
+    "name": "Jourdain",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "11"
+    ],
+    "opening_date": "28-04-1935"
+  },
+  "segur": {
+    "name": "Ségur",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "29-07-1937"
+  },
+  "anvers": {
+    "name": "Anvers",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "07-10-1902"
+  },
+  "argentine": {
+    "name": "Argentine",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "1"
+    ],
+    "opening_date": "01-09-1900"
+  },
+  "ranelagh": {
+    "name": "Ranelagh",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "9"
+    ],
+    "opening_date": "08-11-1922"
+  },
+  "poissonniere": {
+    "name": "Poissonnière",
+    "type": "metro",
+    "town": "Paris 9e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "quatre septembre": {
+    "name": "Quatre Septembre",
+    "type": "metro",
+    "town": "Paris 2e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "3"
+    ],
+    "opening_date": "03-11-1904"
+  },
+  "brochant": {
+    "name": "Brochant",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "13"
+    ],
+    "opening_date": "20-01-1912"
+  },
+  "falguiere": {
+    "name": "Falguière",
+    "type": "metro",
+    "town": "Paris 15e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "12"
+    ],
+    "opening_date": "05-11-1910"
+  },
+  "campo formio": {
+    "name": "Campo-Formio",
+    "type": "metro",
+    "town": "Paris 13e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "02-06-1906"
+  },
+  "villejuif louis aragon": {
+    "name": "Villejuif - Louis Aragon",
+    "type": "metro",
+    "town": "Villejuif",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "28-02-1985"
+  },
+  "chardon lagache": {
+    "name": "Chardon Lagache",
+    "type": "metro",
+    "town": "Paris 16e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "10"
+    ],
+    "opening_date": "30-09-1913"
+  },
+  "antony": {
+    "name": "Antony",
+    "type": "metro",
+    "town": "Antony",
+    "accessibility": "true",
+    "audiblesignals": "false"
+  },
+  "ourcq": {
+    "name": "Ourcq",
+    "type": "metro",
+    "town": "Paris 19e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "5"
+    ],
+    "opening_date": "21-03-1947"
+  },
+  "rome": {
+    "name": "Rome",
+    "type": "metro",
+    "town": "Paris 17e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "06-11-1902"
+  },
+  "menilmontant": {
+    "name": "Ménilmontant",
+    "type": "metro",
+    "town": "Paris 11e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "2"
+    ],
+    "opening_date": "31-01-1903"
+  },
+  "porte de clignancourt": {
+    "name": "Porte de Clignancourt",
+    "type": "metro",
+    "town": "Paris 18e",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "4"
+    ],
+    "opening_date": "21-04-1908"
+  },
+  "mairie d'ivry": {
+    "name": "Mairie d'Ivry",
+    "type": "metro",
+    "town": "Ivry-sur-Seine",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "01-05-1946"
+  },
+  "fort d'aubervilliers": {
+    "name": "Fort d'Aubervilliers",
+    "type": "metro",
+    "town": "Aubervilliers",
+    "accessibility": "false",
+    "audiblesignals": "true",
+    "lines": [
+      "7"
+    ],
+    "opening_date": "04-10-1979"
+  }
+}
