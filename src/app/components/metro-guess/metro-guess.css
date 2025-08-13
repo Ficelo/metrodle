@@ -36,12 +36,12 @@
 
 .earlier {
   color: white;
-  background-image: url("/assets/arrow_up.png");
+  background-image: url("../../../assets/arrow_up.png");
 }
 
 .later {
   color: white;
-  background-image: url("/assets/arrow_down.png");
+  background-image: url("../../../assets/arrow_down.png");
 }
 
 @keyframes flipIn {
@@ -68,4 +68,11 @@
   transform-style: preserve-3d;
   opacity: 0;
   transform: rotateX(90deg);
+}
+
+@media screen and (max-width: 500px) {
+  .square {
+    width : 55px !important;
+    height : 55px !important;
+  }
 }

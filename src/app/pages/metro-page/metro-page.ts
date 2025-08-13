@@ -37,6 +37,13 @@ export class MetroPage {
 
   guesses : Guess[];
 
+  stationText = "Station";
+  lineText = "Ligne";
+  villeText = "Ville";
+  nomText = "Nom (taille)";
+  locationText = "Dans Paris";
+  openingDateText = "Date d\'ouverture";
+
   constructor(private stationService : StationService, private saveService : SaveService) {
     this.found = this.saveService.getSaveData().found;
     this.showDialog = this.found;

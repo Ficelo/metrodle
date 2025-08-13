@@ -1,7 +1,8 @@
 <div class="main-container">
   <h1 class="title">METRODLE</h1>
 
-  <p class="subtitle">Devine la station de métro parisienne</p>
+  <p class="subtitle">Devine la station de métro parisienne en moins de 10 essais.</p>
+  <p class="subtitle">Une nouvelle station à deviner tous les jours !</p>
 
 
   <div class="input-row">
@@ -16,12 +17,12 @@
 
   <div class="guesses">
     <div class="categories">
-      <div class="square"><p>Station</p></div>
-      <div class="square"><p>Ligne</p></div>
-      <div class="square"><p>Ville</p></div>
-      <div class="square"><p>Nom (taille)</p></div>
-      <div class="square"><p>Dans Paris</p></div>
-      <div class="square"><p>Date d' ouverture</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="stationText">{{stationText}}</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="lineText">{{lineText}}</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="villeText">{{villeText}}</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="nomText">{{nomText}}</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="locationText">{{locationText}}</p></div>
+      <div class="square" ><p [appAutoFitTextDirective]="openingDateText">{{openingDateText}}</p></div>
     </div>
     <div class="guesses-tries">
       <app-metro-guess *ngFor="let guess of guesses" [guess]="guess"></app-metro-guess>

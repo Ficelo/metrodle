@@ -128,3 +128,11 @@ h6 {
 h3 {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 500px) {
+  .square {
+    width : 55px !important;
+    height : 55px !important;
+  }
+}
+

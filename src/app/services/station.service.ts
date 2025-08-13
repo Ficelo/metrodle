@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as arrets from "../../../public/assets/infos-stations-v2.json";
+import * as arrets from "../../assets/infos-stations-v2.json";
 
 export interface Arret {
   name : string,
