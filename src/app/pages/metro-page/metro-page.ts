@@ -33,6 +33,7 @@ export class MetroPage {
   selectedStationName? : string;
   found : boolean;
   showDialog : boolean;
+  showDialogLose : boolean;
   copyText : string = "";
 
   guesses : Guess[];
@@ -44,10 +45,11 @@ export class MetroPage {
   locationText = "Dans Paris";
   openingDateText = "Date d\'ouverture";
 
-  constructor(private stationService : StationService, private saveService : SaveService) {
+  constructor(protected stationService : StationService, private saveService : SaveService) {
     this.found = this.saveService.getSaveData().found;
     this.showDialog = this.found;
     this.guesses = this.saveService.getSaveData().guesses;
+    this.showDialogLose = (this.guesses.length >= 10);
   }
 
   filterStations(event : {query : string}){
@@ -127,6 +129,10 @@ export class MetroPage {
 
       if(this.found) {
         setTimeout(() => {this.showDialog = true;}, 1500)
+      }
+
+      if(this.guesses.length >= 10 && !this.found) {
+        setTimeout(() => {this.showDialogLose = true;}, 1500)
       }
 
     }

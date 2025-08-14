@@ -36,4 +36,14 @@
     <p-button styleClass="copyButton" label="Copier" (click)="buildCopyText()"></p-button>
   </p-dialog>
 
+  <p-dialog [(visible)]="showDialogLose" class="dialog" closable="false">
+    <h3>Perdu !</h3>
+    <h6>Revenez demain pour une nouvelle station</h6>
+    <p>La station correcte était : {{stationService.getCorrectArret().name}}</p>
+    <p *ngFor="let g of guesses" class="square-guesses" >{{createSquareString(g)}}</p>
+    <p-button styleClass="copyButton" label="Copier" (click)="buildCopyText()"></p-button>
+  </p-dialog>
+
+
+
 </div>
