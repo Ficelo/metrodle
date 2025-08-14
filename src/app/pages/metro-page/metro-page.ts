@@ -100,7 +100,7 @@ export class MetroPage {
 
   compareStation() {
 
-    if(this.selectedStationName && this.filteredStations.includes(this.selectedStationName)) {
+    if(this.selectedStationName && this.filteredStations.includes(this.selectedStationName) && !this.checkStationAlreadyGuessed(this.selectedStationName)) {
 
       const chosenStation = this.getArret(this.selectedStationName);
       const correctStation = this.stationService.getCorrectArret();
@@ -136,6 +136,16 @@ export class MetroPage {
       }
 
     }
+  }
+
+  checkStationAlreadyGuessed(stationName : string) : boolean {
+
+    for(let g of this.guesses) {
+      if (g.station.name == stationName) {
+        return true;
+      }
+    }
+    return false;
   }
 
   createSquareString(guess: Guess): string {

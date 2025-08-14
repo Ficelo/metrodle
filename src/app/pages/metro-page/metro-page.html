@@ -11,6 +11,7 @@
       [suggestions]="filteredStations"
       (completeMethod)="filterStations($event)"
       placeholder="Entrez le nom d'une station"
+      (keyup.Enter) = "compareStation()"
     ></p-auto-complete>
     <p-button label="Confirmer" [disabled]="found" (click)="compareStation()"></p-button>
   </div>
