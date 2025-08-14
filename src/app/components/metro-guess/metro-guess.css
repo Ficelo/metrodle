@@ -37,11 +37,13 @@
 .earlier {
   color: white;
   background-image: url("../../../assets/arrow_up.png");
+  background-size : cover;
 }
 
 .later {
   color: white;
   background-image: url("../../../assets/arrow_down.png");
+  background-size : cover;
 }
 
 @keyframes flipIn {
