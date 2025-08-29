@@ -3,6 +3,20 @@
   <button class="float-button" (click)="infoButton()"><i class="pi pi-info"></i></button>
 
   <p-dialog [(visible)]="showDialogInfo" class="dialog">
+    <div class="instructions">
+      <h2>Instructions</h2>
+      <img src="../../../assets/example.png" class="instruction-image" alt="Exemple de solution">
+      <ul class="instruction-texte">
+        <li>La catégorie nom fait référence au nombre de lettres dans le nom de la station.</li>
+        <li>Pour la catégorie nom, ⬆︎ indique que la taille du nom de la bonne station est plus grande et inversement.</li>
+        <li>Pour la catégorie date, ⬆︎  indique que la date de construction de la bonne station est dans le futur et inversement.</li>
+        <li>Pour la catégorie ligne : <ul>
+          <li> 🟩 indique que toutes les lignes sont bonnes.</li>
+          <li> 🟧 indique que certaines lignes sont bonnes.</li>
+          <li> 🟥 indique que aucune ligue n'est bonne.</li>
+        </ul>
+      </ul>
+    </div>
     <p>Sources : Wikipedia, <a href="https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf/information/">Île-de-France Mobilités - Open Data (Licence Ouverte v2.0)</a></p>
     <div class="links">
       <div class="link" style="width : 36px; height : 36px;"><a href="https://github.com/Ficelo/metrodle"><i style="font-size : 36px;" class="pi pi-github"></i></a></div>
