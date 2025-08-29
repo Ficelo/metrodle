@@ -34,6 +34,7 @@ export class MetroPage {
   found : boolean;
   showDialog : boolean;
   showDialogLose : boolean;
+  showDialogInfo : boolean = false;
   copyText : string = "";
 
   guesses : Guess[];
@@ -59,6 +60,10 @@ export class MetroPage {
       .map(station => station.name);
   }
 
+  infoButton() : void {
+    this.showDialogInfo = true;
+  }
+
   getArret(name: string): Arret | undefined {
     return this.stationService.getArretsData().find(
       arret => arret.name && arret.name.toLowerCase() === name.toLowerCase()
@@ -66,7 +71,6 @@ export class MetroPage {
   }
 
   checkLine(selectedLines : string[], correctLines : string[]) : string {
-
     let sameLine = 0;
 
     for(let line of selectedLines) {

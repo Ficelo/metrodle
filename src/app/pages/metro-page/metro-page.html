@@ -1,4 +1,15 @@
 <div class="main-container">
+
+  <button class="float-button" (click)="infoButton()"><i class="pi pi-info"></i></button>
+
+  <p-dialog [(visible)]="showDialogInfo" class="dialog">
+    <p>Sources : Wikipedia, <a href="https://data.iledefrance-mobilites.fr/explore/dataset/emplacement-des-gares-idf/information/">Île-de-France Mobilités - Open Data (Licence Ouverte v2.0)</a></p>
+    <div class="links">
+      <div class="link" style="width : 36px; height : 36px;"><a href="https://github.com/Ficelo/metrodle"><i style="font-size : 36px;" class="pi pi-github"></i></a></div>
+      <a class="link" href='https://ko-fi.com/J3J8XDARQ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+    </div>
+  </p-dialog>
+
   <h1 class="title">METRODLE</h1>
 
   <p class="subtitle">Devine la station de métro parisienne en moins de 10 essais.</p>
@@ -44,7 +55,5 @@
     <p *ngFor="let g of guesses" class="square-guesses" >{{createSquareString(g)}}</p>
     <p-button styleClass="copyButton" label="Copier" (click)="buildCopyText()"></p-button>
   </p-dialog>
-
-
 
 </div>
