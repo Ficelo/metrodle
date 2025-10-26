@@ -1,8 +1,13 @@
-html, body {
+html {
     min-width: 100vw;
     min-height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0; 
 }
 
 .top-bar {
@@ -32,7 +37,7 @@ html, body {
     width: 60px;
 }
 
-.metro-station p {
+.metro-station Link {
     transform: rotate(-36deg) translateX(10px);
     transform-origin: bottom left;
     width: fit-content;
@@ -40,7 +45,7 @@ html, body {
     margin: 0;
 }
 
-.metro-station p:hover {
+.metro-station Link:hover {
     background-color: #1A3C90;
     color: white;
 }
@@ -53,6 +58,20 @@ html, body {
 }
 
 .metro-selected {
+    background-color: #1A3C90;
+    color: white;
+}
+
+.metro-link {
+    transform: rotate(-36deg) translateX(10px);
+    transform-origin: bottom left;
+    width: fit-content;
+    padding: 0 5px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.metro-link:hover {
     background-color: #1A3C90;
     color: white;
 }
