@@ -3,4 +3,39 @@
     font-weight: bold;
     font-size: 96px;
     text-align: center;
+    width: fit-content;
+    margin: 24px 0;
+}
+
+.game-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    width: auto;
+    margin: 0 5px;
+}
+
+.input-container button {
+    flex: 1;
+    padding: 15px;
+    background-color: #018E59;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.input-container input {
+    flex: 4;
+    border: 2px solid #018E59;
+    border-radius: 14px;
+    padding: 5px;
 }
