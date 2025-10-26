@@ -1,0 +1,26 @@
+.square {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+}
+
+.white {
+    background-color: white;
+    border: solid 2px black;
+}
+
+.green {
+
+}
+
+.orange {
+
+}
+
+.black {
+
+}

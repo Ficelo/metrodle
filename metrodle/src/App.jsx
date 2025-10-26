@@ -68,7 +68,6 @@ function InfoPage() {
 }
 
 
-
 function App() {
 
   const metroColors = ["#FFCE00", "#0064B0", "#9F9825", "#98D4E2", "#C04191", "#F28E42", "#83C491", "#F3A4BA", "#83C491", "#CEADD2", "#D5C900", "#E3B32A", "#8D5E2A", "#00814F", "#98D4E2", "#662483"];
