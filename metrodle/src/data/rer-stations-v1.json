@@ -1,0 +1,3196 @@
+{
+    "cergy-le-haut": {
+        "name": "Cergy-le-Haut",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cergy-le-Haut",
+        "line": "A",
+        "zone": "5",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Cergy",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.0109997600036325,
+            "lat": 49.04787620336899
+        },
+        "date": "1994-08-29"
+    },
+    "cergy-saint-christophe": {
+        "name": "Cergy-Saint-Christophe",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cergy-Saint-Christophe",
+        "line": "A",
+        "zone": "5",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Cergy",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.034294461852662,
+            "lat": 49.049647005256354
+        },
+        "date": "1985-09-29"
+    },
+    "cergy-préfecture": {
+        "name": "Cergy-Préfecture",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cergy-Pr%C3%A9fecture",
+        "line": "A",
+        "zone": "5",
+        "situation": "Souterraine",
+        "ville": "Cergy",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.0795349399973735,
+            "lat": 49.036463980725365
+        },
+        "date": "1979-03-31"
+    },
+    "neuville-université": {
+        "name": "Neuville-Université",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Neuville-Universit%C3%A9",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Neuville-sur-Oise",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.078306591409993,
+            "lat": 49.014133684983044
+        },
+        "date": "1994-08-29"
+    },
+    "conflans-fin-d'oise": {
+        "name": "Conflans-Fin-d'Oise",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Conflans-Fin-d%27Oise",
+        "line": "A",
+        "zone": "5",
+        "situation": "Aérienne",
+        "ville": "Conflans-Sainte-Honorine",
+        "correspondance": "J",
+        "coords": {
+            "lon": 2.0739471888196928,
+            "lat": 48.99033252838146
+        },
+        "date": "1894-01-15"
+    },
+    "achères-ville": {
+        "name": "Achères-Ville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ach%C3%A8res-Ville",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Achères",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.0777317645655984,
+            "lat": 48.97066504832262
+        },
+        "date": "1976-05"
+    },
+    "poissy": {
+        "name": "Poissy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Poissy",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Poissy",
+        "correspondance": "J",
+        "coords": {
+            "lon": 2.041072289675926,
+            "lat": 48.93326540612855
+        },
+        "date": "1843-05-09"
+    },
+    "achères - grand-cormier": {
+        "name": "Achères - Grand-Cormier",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ach%C3%A8res_-_Grand-Cormier",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Germain-en-Laye",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.093521901580612,
+            "lat": 48.955402244531115
+        },
+        "date": "1843-05-09"
+    },
+    "maisons-laffitte": {
+        "name": "Maisons-Laffitte",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Maisons-Laffitte",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Maisons-Laffitte",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.1450174376542583,
+            "lat": 48.94550297190666
+        }
+    },
+    "sartrouville": {
+        "name": "Sartrouville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sartrouville",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Sartrouville",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.1570864964698178,
+            "lat": 48.93773606341459
+        },
+        "date": "1892"
+    },
+    "houilles - carrières-sur-seine": {
+        "name": "Houilles - Carrières-sur-Seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Houilles_-_Carri%C3%A8res-sur-Seine",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Houilles",
+        "correspondance": "J",
+        "coords": {
+            "lon": 2.1853533763028636,
+            "lat": 48.92037937392436
+        },
+        "date": "1843"
+    },
+    "saint-germain-en-laye": {
+        "name": "Saint-Germain-en-Laye",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Germain-en-Laye",
+        "line": "A",
+        "zone": "4",
+        "situation": "Souterraine",
+        "ville": "Saint-Germain-en-Laye",
+        "correspondance": "13",
+        "coords": {
+            "lon": 2.0948366282977533,
+            "lat": 48.89807641113002
+        },
+        "date": "1847-08-14"
+    },
+    "le vesinet - le pecq": {
+        "name": "le vesinet - le pecq",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_V%C3%A9sinet_-_Le_Pecq",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Le Vésinet",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.122117447472966,
+            "lat": 48.89797344633644
+        },
+        "date": "1837-08-26"
+    },
+    "le vesinet-centre": {
+        "name": "le vesinet-centre",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_V%C3%A9sinet-Centre",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Le Vésinet",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.134600875228717,
+            "lat": 48.89008623555386
+        },
+        "date": "1837-08-26"
+    },
+    "chatou - croissy": {
+        "name": "Chatou - Croissy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chatou_-_Croissy",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Chatou",
+        "correspondance": "",
+        "coords": {},
+        "date": "1837-10"
+    },
+    "rueil-malmaison": {
+        "name": "Rueil-Malmaison",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Rueil-Malmaison",
+        "line": "A",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Rueil-Malmaison",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.172579447718415,
+            "lat": 48.88757361863876
+        },
+        "date": "1837-08-26"
+    },
+    "nanterre-ville": {
+        "name": "Nanterre-Ville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nanterre-Ville",
+        "line": "A",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Nanterre",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.195363986912901,
+            "lat": 48.89512589133458
+        },
+        "date": "1838"
+    },
+    "nanterre-université": {
+        "name": "Nanterre-Université",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nanterre-Universit%C3%A9",
+        "line": "A",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Nanterre",
+        "correspondance": "L",
+        "coords": {
+            "lon": 2.2135566086399585,
+            "lat": 48.90101049575467
+        },
+        "date": "2015-12-17"
+    },
+    "nanterre-préfecture": {
+        "name": "Nanterre-Préfecture",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nanterre-Pr%C3%A9fecture",
+        "line": "A",
+        "zone": "3",
+        "situation": "Souterraine",
+        "ville": "Nanterre",
+        "correspondance": "E",
+        "coords": {
+            "lon": 2.2232129684066617,
+            "lat": 48.89574531120744
+        },
+        "date": "1973-10-01"
+    },
+    "la défense\ngrande arche": {
+        "name": "La Défense\nGrande Arche",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_la_D%C3%A9fense",
+        "line": "A",
+        "zone": "3",
+        "situation": "Souterraine",
+        "ville": "Puteaux",
+        "correspondance": "01",
+        "coords": {},
+        "date": "1959-04"
+    },
+    "charles-de-gaulle - étoile": {
+        "name": "Charles-de-Gaulle - Étoile",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Charles-de-Gaulle_-_%C3%89toile",
+        "line": "A",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 8e/16e/17e",
+        "correspondance": "01",
+        "coords": {},
+        "date": "1970-01-19"
+    },
+    "auber": {
+        "name": "Auber",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Auber",
+        "line": "A",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 9e",
+        "correspondance": "03",
+        "coords": {
+            "lon": 2.3299271706082756,
+            "lat": 48.87215749487708
+        },
+        "date": "1971-11-23"
+    },
+    "chatelet": {
+        "name": "chatelet",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Ch%C3%A2telet_-_Les_Halles",
+        "line": "A",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 1er",
+        "correspondance": "01",
+        "coords": {},
+        "date": "1977-12-09"
+    },
+    "gare de lyon": {
+        "name": "Gare de Lyon",
+        "url": "https://fr.wikipedia.org/wiki/Paris-Gare-de-Lyon",
+        "line": "A",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 12e",
+        "correspondance": "01",
+        "coords": {
+            "lon": 2.3739164698064985,
+            "lat": 48.843772576851464
+        },
+        "date": "1849-08-12"
+    },
+    "nation": {
+        "name": "Nation",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nation",
+        "line": "A",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 11e/12e",
+        "correspondance": "01",
+        "coords": {
+            "lon": 2.395823588826126,
+            "lat": 48.84823711041019
+        },
+        "date": "1969-12-14"
+    },
+    "vincennes": {
+        "name": "Vincennes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Vincennes",
+        "line": "A",
+        "zone": "2",
+        "situation": "Souterraine",
+        "ville": "Vincennes",
+        "correspondance": "01",
+        "coords": {
+            "lon": 2.432434660260661,
+            "lat": 48.84734036417028
+        },
+        "date": "1859-09-22"
+    },
+    "fontenay-sous-bois": {
+        "name": "Fontenay-sous-Bois",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Fontenay-sous-Bois",
+        "line": "A",
+        "zone": "3",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Fontenay-sous-Bois",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4635014194875513,
+            "lat": 48.843794351932786
+        },
+        "date": "1859"
+    },
+    "nogent-sur-marne": {
+        "name": "Nogent-sur-Marne",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nogent-sur-Marne",
+        "line": "A",
+        "zone": "3",
+        "situation": "Souterraine",
+        "ville": "Nogent-sur-Marne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.471681242571033,
+            "lat": 48.834288898896155
+        },
+        "date": "1969-12-14"
+    },
+    "joinville-le-pont": {
+        "name": "Joinville-le-Pont",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Joinville-le-Pont",
+        "line": "A",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Joinville-le-Pont",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4638567953623163,
+            "lat": 48.82103881506317
+        },
+        "date": "1859-09-22"
+    },
+    "saint-maur - créteil": {
+        "name": "Saint-Maur - Créteil",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Maur_-_Cr%C3%A9teil",
+        "line": "A",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Saint-Maur-des-Fossés",
+        "correspondance": "Tvm",
+        "coords": {
+            "lon": 2.4727204038021715,
+            "lat": 48.80620002476372
+        },
+        "date": "1859-09-22"
+    },
+    "le parc de saint-maur": {
+        "name": "Le Parc de Saint-Maur",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Parc_de_Saint-Maur",
+        "line": "A",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Maur-des-Fossés",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4863497487790744,
+            "lat": 48.80537766216148
+        },
+        "date": "1859-09-22"
+    },
+    "champigny\nsaint-maur": {
+        "name": "Champigny\nSaint-Maur",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Champigny",
+        "line": "A",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Saint-Maur-des-Fossés",
+        "correspondance": "",
+        "coords": {},
+        "date": "1859-09-22"
+    },
+    "la varenne - chennevières": {
+        "name": "La Varenne - Chennevières",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Varenne_-_Chennevi%C3%A8res",
+        "line": "A",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Maur-des-Fossés",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.513423298184714,
+            "lat": 48.795383835614835
+        },
+        "date": "1859-09-22"
+    },
+    "sucy - bonneuil": {
+        "name": "Sucy - Bonneuil",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sucy_-_Bonneuil",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Sucy-en-Brie",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.507482645714313,
+            "lat": 48.771707906964316
+        },
+        "date": "1872-09-05"
+    },
+    "boissy-saint-léger": {
+        "name": "Boissy-Saint-Léger",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boissy-Saint-L%C3%A9ger",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Boissy-Saint-Léger",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.504559838342837,
+            "lat": 48.75218572078873
+        },
+        "date": "1874-07-08"
+    },
+    "val de fontenay": {
+        "name": "Val de Fontenay",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Val_de_Fontenay",
+        "line": "A",
+        "zone": "3",
+        "situation": "A",
+        "ville": "Fontenay-sous-Bois",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4886964657999355,
+            "lat": 48.85409607826304
+        },
+        "date": "1977-12-08"
+    },
+    "neuilly-plaisance": {
+        "name": "Neuilly-Plaisance",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Neuilly-Plaisance",
+        "line": "A",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Neuilly-Plaisance",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5143124384334405,
+            "lat": 48.85290746280475
+        },
+        "date": "1977-12-09"
+    },
+    "bry-sur-marne": {
+        "name": "Bry-sur-Marne",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bry-sur-Marne_(RATP)",
+        "line": "A",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Bry-sur-Marne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.525615908439546,
+            "lat": 48.84519309666404
+        },
+        "date": "1977-12-09"
+    },
+    "noisy-le-grand-mont d'est": {
+        "name": "Noisy-le-Grand-Mont d'Est",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Noisy-le-Grand-Mont_d%27Est",
+        "line": "A",
+        "zone": "4",
+        "situation": "Souterraine",
+        "ville": "Noisy-le-Grand",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.549900487641346,
+            "lat": 48.840844372159204
+        },
+        "date": "1977-12-09"
+    },
+    "noisy - champs\nchampy - nesles": {
+        "name": "Noisy - Champs\nChampy - Nesles",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Noisy_-_Champs",
+        "line": "A",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Noisy-le-Grand, Champs-sur-Marne",
+        "correspondance": "",
+        "coords": {},
+        "date": "1980-12-19"
+    },
+    "noisiel\nle luzard": {
+        "name": "Noisiel\nLe Luzard",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Noisiel",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Noisiel",
+        "correspondance": "",
+        "coords": {},
+        "date": "1980-12-19"
+    },
+    "lognes\nle mandinet": {
+        "name": "Lognes\nLe Mandinet",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Lognes",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Lognes",
+        "correspondance": "",
+        "coords": {},
+        "date": "1980-12-19"
+    },
+    "torcy": {
+        "name": "Torcy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Torcy",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Torcy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.655130086641314,
+            "lat": 48.83964551726303
+        },
+        "date": "1980-12-19"
+    },
+    "bussy-saint-georges": {
+        "name": "Bussy-Saint-Georges",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bussy-Saint-Georges",
+        "line": "A",
+        "zone": "5",
+        "situation": "Souterraine",
+        "ville": "Bussy-Saint-Georges",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.7089817422622775,
+            "lat": 48.83653643294523
+        },
+        "date": "1992-12-21"
+    },
+    "val d'europe\nserris - montévrain": {
+        "name": "Val d'Europe\nSerris - Montévrain",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Val_d%27Europe",
+        "line": "A",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Serris, Montévrain, Chessy",
+        "correspondance": "",
+        "coords": {},
+        "date": "2001-04-14"
+    },
+    "marne-la-vallée - chessy\nparcs disneyland": {
+        "name": "Marne-la-Vallée - Chessy\nParcs Disneyland",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Marne-la-Vall%C3%A9e_-_Chessy",
+        "line": "A",
+        "zone": "5",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Chessy",
+        "correspondance": "Grandes lignes",
+        "coords": {},
+        "date": "1992-04-01"
+    },
+    "aeroport charles-de-gaulle 2": {
+        "name": "aeroport Charles-de-Gaulle 2",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_l%27a%C3%A9roport_Charles-de-Gaulle_2_TGV",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Tremblay-en-France, Le Mesnil-Amelot",
+        "correspondance": "CDGVAL\nGrandes lignes",
+        "coords": {},
+        "date": "1994-11-13"
+    },
+    "aeroport charles-de-gaulle 1": {
+        "name": "aeroport Charles-de-Gaulle 1",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_l%27a%C3%A9roport_Charles-de-Gaulle_1",
+        "line": "B",
+        "zone": "5",
+        "situation": "Souterraine",
+        "ville": "Tremblay-en-France",
+        "correspondance": "CDGVAL",
+        "coords": {},
+        "date": "1976-05-30"
+    },
+    "parc des expositions": {
+        "name": "Parc des Expositions",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Parc_des_Expositions",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Villepinte",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.514360285533493,
+            "lat": 48.97342490721537
+        },
+        "date": "1983-01"
+    },
+    "villepinte": {
+        "name": "Villepinte",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villepinte",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Villepinte",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.512644627819613,
+            "lat": 48.962709513300425
+        },
+        "date": "1977"
+    },
+    "sevran - beaudottes": {
+        "name": "Sevran - Beaudottes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sevran_-_Beaudottes",
+        "line": "B",
+        "zone": "4",
+        "situation": "Souterraine",
+        "ville": "Sevran",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.524779047056861,
+            "lat": 48.9468939111449
+        },
+        "date": "1976"
+    },
+    "mitry - claye": {
+        "name": "Mitry - Claye",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Mitry_-_Claye",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Mitry-Mory",
+        "correspondance": "K",
+        "coords": {
+            "lon": 2.6424063023101896,
+            "lat": 48.97585875402046
+        },
+        "date": "1861-08-31"
+    },
+    "villeparisis - mitry-le-neuf": {
+        "name": "Villeparisis - Mitry-le-Neuf",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villeparisis_-_Mitry-le-Neuf",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Mitry-Mory",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.6031353051184487,
+            "lat": 48.95314838758261
+        },
+        "date": "1883"
+    },
+    "vert-galant": {
+        "name": "Vert-Galant",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Vert-Galant",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Villepinte",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5664480169630006,
+            "lat": 48.944181065974725
+        },
+        "date": "1890"
+    },
+    "sevran - livry": {
+        "name": "Sevran - Livry",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sevran_-_Livry",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Sevran",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5347149747425237,
+            "lat": 48.936280185651775
+        },
+        "date": "1860"
+    },
+    "aulnay-sous-bois": {
+        "name": "Aulnay-sous-Bois",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Aulnay-sous-Bois",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Aulnay-sous-Bois",
+        "correspondance": "4",
+        "coords": {
+            "lon": 2.495513142584314,
+            "lat": 48.93219600596196
+        },
+        "date": "1875-08-07"
+    },
+    "le blanc-mesnil": {
+        "name": "Le Blanc-Mesnil",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Blanc-Mesnil",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Le Blanc-Mesnil",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.475674370833512,
+            "lat": 48.93230541606913
+        },
+        "date": "1980"
+    },
+    "drancy": {
+        "name": "Drancy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Drancy",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Drancy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4547663827657766,
+            "lat": 48.93270621869947
+        }
+    },
+    "le bourget": {
+        "name": "Le Bourget",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Bourget",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Le Bourget",
+        "correspondance": "11",
+        "coords": {
+            "lon": 2.4257914255599538,
+            "lat": 48.93073957031752
+        },
+        "date": "1863"
+    },
+    "la courneuve - aubervilliers": {
+        "name": "La Courneuve - Aubervilliers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Courneuve_-_Aubervilliers",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "La Courneuve",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.386388291064694,
+            "lat": 48.92435387966093
+        }
+    },
+    "la plaine - stade de france\nsaint-denis - aubervilliers": {
+        "name": "La Plaine - Stade de France\nSaint-Denis - Aubervilliers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Plaine_-_Stade_de_France",
+        "line": "B",
+        "zone": "2",
+        "situation": "Aérienne",
+        "ville": "Saint-Denis",
+        "correspondance": "",
+        "coords": {},
+        "date": "1998-01-25"
+    },
+    "gare du nord": {
+        "name": "Gare du Nord",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Nord",
+        "line": "B",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 10e",
+        "correspondance": "04",
+        "coords": {
+            "lon": 2.357570193470877,
+            "lat": 48.88175948915267
+        },
+        "date": "1846-06-20"
+    },
+    "saint-michel - notre-dame": {
+        "name": "Saint-Michel - Notre-Dame",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Michel_-_Notre-Dame",
+        "line": "B",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 4e/5e/6e",
+        "correspondance": "04",
+        "coords": {},
+        "date": "1900-05-28"
+    },
+    "luxembourg\nsénat": {
+        "name": "Luxembourg\nSénat",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Luxembourg",
+        "line": "B",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 5e/6e",
+        "correspondance": "",
+        "coords": {},
+        "date": "1895-03-31"
+    },
+    "port-royal": {
+        "name": "Port-Royal",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Port-Royal",
+        "line": "B",
+        "zone": "1",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Paris 5e/6e",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3370964308800906,
+            "lat": 48.840033787418086
+        },
+        "date": "1895-03-31"
+    },
+    "denfert-rochereau": {
+        "name": "Denfert-Rochereau",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Denfert-Rochereau",
+        "line": "B",
+        "zone": "1",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Paris 14e",
+        "correspondance": "04",
+        "coords": {
+            "lon": 2.333203670349575,
+            "lat": 48.83307317062929
+        },
+        "date": "1846-06-07"
+    },
+    "cite universitaire": {
+        "name": "cite universitaire",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cit%C3%A9_universitaire",
+        "line": "B",
+        "zone": "1",
+        "situation": "Tranchée",
+        "ville": "Paris 14e",
+        "correspondance": "3a",
+        "coords": {},
+        "date": "1846-06-07"
+    },
+    "gentilly": {
+        "name": "Gentilly",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Gentilly",
+        "line": "B",
+        "zone": "2",
+        "situation": "Tranchée",
+        "ville": "Gentilly",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.340891132444595,
+            "lat": 48.81522993471633
+        },
+        "date": "1891"
+    },
+    "laplace": {
+        "name": "Laplace",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Laplace",
+        "line": "B",
+        "zone": "2",
+        "situation": "Aérienne",
+        "ville": "Arcueil",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.334354309639648,
+            "lat": 48.808296588631435
+        },
+        "date": "1894"
+    },
+    "arcueil - cachan": {
+        "name": "Arcueil - Cachan",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Arcueil_-_Cachan",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Cachan",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.328136923064751,
+            "lat": 48.798892500080676
+        },
+        "date": "1846-06-07"
+    },
+    "bagneux": {
+        "name": "Bagneux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bagneux",
+        "line": "B",
+        "zone": "3",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Cachan",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.322201633670121,
+            "lat": 48.79333629623622
+        }
+    },
+    "bourg-la-reine": {
+        "name": "Bourg-la-Reine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bourg-la-Reine",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Bourg-la-Reine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.312307716888594,
+            "lat": 48.78031379639699
+        },
+        "date": "1846-06-07"
+    },
+    "sceaux": {
+        "name": "Sceaux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sceaux",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Sceaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2976476777940333,
+            "lat": 48.78135672132316
+        }
+    },
+    "fontenay-aux-roses": {
+        "name": "Fontenay-aux-Roses",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Fontenay-aux-Roses",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Fontenay-aux-Roses",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.292988009258979,
+            "lat": 48.787566728367985
+        }
+    },
+    "robinson": {
+        "name": "Robinson",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Robinson",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Sceaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.281430595437462,
+            "lat": 48.78023729710839
+        },
+        "date": "1893"
+    },
+    "parc de sceaux": {
+        "name": "Parc de Sceaux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Parc_de_Sceaux",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Antony",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.309905064564246,
+            "lat": 48.76956333368779
+        }
+    },
+    "la croix de berny": {
+        "name": "La Croix de Berny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Croix_de_Berny",
+        "line": "B",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Antony",
+        "correspondance": "10",
+        "coords": {},
+        "date": "1854-07-29"
+    },
+    "antony": {
+        "name": "Antony",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Antony",
+        "line": "B",
+        "zone": "3",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Antony",
+        "correspondance": "Orlyval",
+        "coords": {
+            "lon": 2.3009868557349513,
+            "lat": 48.754946525531125
+        },
+        "date": "1854-07-29"
+    },
+    "fontaine michalon": {
+        "name": "Fontaine Michalon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Fontaine_Michalon",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Antony",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.295921406897603,
+            "lat": 48.743016569903006
+        }
+    },
+    "les baconnets": {
+        "name": "Les Baconnets",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Baconnets",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Antony",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.287667495463073,
+            "lat": 48.73968104253053
+        }
+    },
+    "massy - verrières": {
+        "name": "Massy - Verrières",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Massy_-_Verri%C3%A8res",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Massy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2740024044842477,
+            "lat": 48.73488814734515
+        },
+        "date": "1854-07-29"
+    },
+    "massy - palaiseau": {
+        "name": "Massy - Palaiseau",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Massy_-_Palaiseau",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Massy",
+        "correspondance": "12",
+        "coords": {
+            "lon": 2.259946049525822,
+            "lat": 48.72509804119919
+        }
+    },
+    "palaiseau": {
+        "name": "Palaiseau",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Palaiseau",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Palaiseau",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.245672514581906,
+            "lat": 48.71694628758515
+        },
+        "date": "1854-07-29"
+    },
+    "palaiseau - villebon": {
+        "name": "Palaiseau - Villebon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Palaiseau_-_Villebon",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Palaiseau",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.237314364639455,
+            "lat": 48.70814058364534
+        },
+        "date": "1854-07-29"
+    },
+    "lozère\nécole polytechnique": {
+        "name": "Lozère\nÉcole Polytechnique",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Loz%C3%A8re",
+        "line": "B",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Palaiseau",
+        "correspondance": "",
+        "coords": {},
+        "date": "1854-07-29"
+    },
+    "le guichet": {
+        "name": "Le Guichet",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Guichet",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Orsay",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.1927348848067565,
+            "lat": 48.70540392478546
+        },
+        "date": "1854-07-29"
+    },
+    "orsay-ville": {
+        "name": "Orsay-Ville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Orsay-Ville",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Orsay",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.1810544390412185,
+            "lat": 48.69750567080332
+        },
+        "date": "1854-07-29"
+    },
+    "bures-sur-yvette": {
+        "name": "Bures-sur-Yvette",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bures-sur-Yvette",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Bures-sur-Yvette",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.1643782427741725,
+            "lat": 48.696252747814434
+        }
+    },
+    "la hacquinière": {
+        "name": "La Hacquinière",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Hacquini%C3%A8re",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Bures-sur-Yvette",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.151642038623571,
+            "lat": 48.695264122108014
+        }
+    },
+    "gif-sur-yvette": {
+        "name": "Gif-sur-Yvette",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Gif-sur-Yvette",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Gif-sur-Yvette",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.136566717058361,
+            "lat": 48.698196976301936
+        },
+        "date": "1867-08-26"
+    },
+    "courcelle-sur-yvette": {
+        "name": "Courcelle-sur-Yvette",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Courcelle-sur-Yvette",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Rémy-lès-Chevreuse, Gif-sur-Yvette",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.097975858420524,
+            "lat": 48.70121772031537
+        },
+        "date": "1867-08-26"
+    },
+    "saint-rémy-lès-chevreuse": {
+        "name": "Saint-Rémy-lès-Chevreuse",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-R%C3%A9my-l%C3%A8s-Chevreuse",
+        "line": "B",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Rémy-lès-Chevreuse",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.071242846320578,
+            "lat": 48.70275104207729
+        },
+        "date": "1867-08-26"
+    },
+    "pontoise": {
+        "name": "Pontoise",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Pontoise",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Pontoise",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.0951950672259687,
+            "lat": 49.04664576264113
+        },
+        "date": "1863"
+    },
+    "saint-ouen-l'aumône": {
+        "name": "Saint-Ouen-l'Aumône",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Ouen-l%27Aum%C3%B4ne",
+        "line": "C",
+        "zone": "5",
+        "situation": "Aérienne",
+        "ville": "Saint-Ouen-l'Aumône",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.1051107034445073,
+            "lat": 49.045311648350264
+        },
+        "date": "2000-08-28"
+    },
+    "saint-ouen-l'aumône-liesse": {
+        "name": "Saint-Ouen-l'Aumône-Liesse",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Ouen-l%27Aum%C3%B4ne-Liesse",
+        "line": "C",
+        "zone": "5",
+        "situation": "Tranchée",
+        "ville": "Saint-Ouen-l'Aumône",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.128263873923673,
+            "lat": 49.033987636271455
+        },
+        "date": "2002-03-24"
+    },
+    "pierrelaye": {
+        "name": "Pierrelaye",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Pierrelaye",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Pierrelaye",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.1546634856409232,
+            "lat": 49.01913673984224
+        },
+        "date": "1881"
+    },
+    "montigny - beauchamp": {
+        "name": "Montigny - Beauchamp",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Montigny_-_Beauchamp",
+        "line": "C",
+        "zone": "4",
+        "situation": "Tranchée",
+        "ville": "Pierrelaye, Montigny-lès-Cormeilles, Beauchamp",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.1965029019130347,
+            "lat": 49.007767719270035
+        },
+        "date": "1846-06-20"
+    },
+    "franconville - le plessis-bouchard": {
+        "name": "Franconville - Le Plessis-Bouchard",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Franconville_-_Le_Plessis-Bouchard",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Franconville",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.2342763939965375,
+            "lat": 48.99371348038584
+        },
+        "date": "1988-09-25"
+    },
+    "cernay": {
+        "name": "Cernay",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cernay_(Val-d%27Oise)",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Ermont",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.2574741572503108,
+            "lat": 48.98500470125916
+        },
+        "date": "1889"
+    },
+    "ermont - eaubonne": {
+        "name": "Ermont - Eaubonne",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ermont_-_Eaubonne",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Ermont, Eaubonne",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.272084772747632,
+            "lat": 48.98064610042599
+        },
+        "date": "1846-06-20"
+    },
+    "saint-gratien": {
+        "name": "Saint-Gratien",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Gratien",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Gratien",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.285930718208942,
+            "lat": 48.963589684873156
+        },
+        "date": "1908-07-01"
+    },
+    "epinay-sur-seine": {
+        "name": "epinay-sur-seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89pinay-sur-Seine",
+        "line": "C",
+        "zone": "3",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Épinay-sur-Seine",
+        "correspondance": "8",
+        "coords": {},
+        "date": "1908-07-01"
+    },
+    "gennevilliers": {
+        "name": "Gennevilliers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Gennevilliers",
+        "line": "C",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Gennevilliers",
+        "correspondance": "1",
+        "coords": {
+            "lon": 2.307943234074898,
+            "lat": 48.932896166448664
+        },
+        "date": "1988-09-25"
+    },
+    "les grésillons": {
+        "name": "Les Grésillons",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Gr%C3%A9sillons",
+        "line": "C",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Gennevilliers",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.313835382457718,
+            "lat": 48.92087280435658
+        },
+        "date": "1908-07-01"
+    },
+    "saint-ouen": {
+        "name": "Saint-Ouen",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Ouen",
+        "line": "C",
+        "zone": "2",
+        "situation": "Souterraine",
+        "ville": "Saint-Ouen-sur-Seine",
+        "correspondance": "14",
+        "coords": {
+            "lon": 2.3226263683342268,
+            "lat": 48.9045663899011
+        },
+        "date": "1988-09-25"
+    },
+    "porte de clichy": {
+        "name": "Porte de Clichy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_la_Porte_de_Clichy",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 17e",
+        "correspondance": "13",
+        "coords": {
+            "lon": 2.315599220546768,
+            "lat": 48.89416838621195
+        },
+        "date": "1991-09-29"
+    },
+    "pereire - levallois": {
+        "name": "Pereire - Levallois",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Pereire_-_Levallois",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 17e",
+        "correspondance": "03",
+        "coords": {
+            "lon": 2.299279102380644,
+            "lat": 48.88604139991642
+        },
+        "date": "1854-05-02"
+    },
+    "neuilly - porte maillot": {
+        "name": "Neuilly - Porte Maillot",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Neuilly_-_Porte_Maillot",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 17e",
+        "correspondance": "01",
+        "coords": {
+            "lon": 2.284431219916768,
+            "lat": 48.87790843816008
+        },
+        "date": "1854-05-02"
+    },
+    "avenue foch": {
+        "name": "Avenue Foch",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_l%27avenue_Foch",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 16e",
+        "correspondance": "02",
+        "coords": {
+            "lon": 2.274808153642234,
+            "lat": 48.869830488996314
+        }
+    },
+    "avenue henri-martin": {
+        "name": "Avenue Henri-Martin",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_l%27avenue_Henri-Martin",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 16e",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2721593819194146,
+            "lat": 48.86546235708394
+        },
+        "date": "1878"
+    },
+    "boulainvilliers": {
+        "name": "Boulainvilliers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boulainvilliers",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 16e",
+        "correspondance": "09",
+        "coords": {
+            "lon": 2.2747933246088805,
+            "lat": 48.85697199584854
+        },
+        "date": "1900-04-12"
+    },
+    "avenue du président-kennedy\nmaison de radio-france": {
+        "name": "Avenue du Président-Kennedy\nMaison de Radio-France",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_l%27avenue_du_Pr%C3%A9sident-Kennedy",
+        "line": "C",
+        "zone": "1",
+        "situation": "Aérienne et souterraine",
+        "ville": "Paris 16e",
+        "correspondance": "",
+        "coords": {},
+        "date": "1988"
+    },
+    "saint-quentin-en-yvelines\nmontigny-le-bretonneux": {
+        "name": "Saint-Quentin-en-Yvelines\nMontigny-le-Bretonneux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Quentin-en-Yvelines_-_Montigny-le-Bretonneux",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Montigny-le-Bretonneux",
+        "correspondance": "N",
+        "coords": {},
+        "date": "1975"
+    },
+    "saint-cyr": {
+        "name": "Saint-Cyr",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Cyr",
+        "line": "C",
+        "zone": "5",
+        "situation": "Aérienne",
+        "ville": "Saint-Cyr-l'École, Versailles",
+        "correspondance": "N",
+        "coords": {
+            "lon": 2.0718470059294014,
+            "lat": 48.79870763528835
+        },
+        "date": "1849-07-12"
+    },
+    "versailles-chantiers": {
+        "name": "Versailles-Chantiers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Versailles-Chantiers",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Versailles",
+        "correspondance": "N",
+        "coords": {},
+        "date": "1849-07-12"
+    },
+    "versailles-château-rive-gauche": {
+        "name": "Versailles-Château-Rive-Gauche",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Versailles-Ch%C3%A2teau-Rive-Gauche",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Versailles",
+        "correspondance": "",
+        "coords": {},
+        "date": "1840-09-10"
+    },
+    "porchefontaine": {
+        "name": "Porchefontaine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Porchefontaine",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Versailles",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.152378660253372,
+            "lat": 48.79652818117568
+        },
+        "date": "1840"
+    },
+    "viroflay-rive-gauche": {
+        "name": "Viroflay-Rive-Gauche",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Viroflay-Rive-Gauche",
+        "line": "C",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Viroflay",
+        "correspondance": "N",
+        "coords": {},
+        "date": "1840-09-10"
+    },
+    "chaville - vélizy": {
+        "name": "Chaville - Vélizy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chaville_-_V%C3%A9lizy",
+        "line": "C",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Viroflay",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.183684109854236,
+            "lat": 48.79972882534397
+        }
+    },
+    "meudon-val-fleury": {
+        "name": "Meudon-Val-Fleury",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Meudon-Val-Fleury",
+        "line": "C",
+        "zone": "3",
+        "situation": "Tranchée",
+        "ville": "Meudon",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2408830693356476,
+            "lat": 48.80749262578013
+        },
+        "date": "1979-05-22"
+    },
+    "issy": {
+        "name": "Issy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Issy",
+        "line": "C",
+        "zone": "2",
+        "situation": "Aérienne",
+        "ville": "Issy-les-Moulineaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.257893897515079,
+            "lat": 48.819343962606595
+        }
+    },
+    "issy-val de seine": {
+        "name": "Issy-Val de Seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Issy-Val_de_Seine",
+        "line": "C",
+        "zone": "2",
+        "situation": "Aérienne",
+        "ville": "Issy-les-Moulineaux",
+        "correspondance": "2",
+        "coords": {},
+        "date": "1902-03-24"
+    },
+    "pont du garigliano\nhôpital européen georges-pompidou": {
+        "name": "Pont du Garigliano\nHôpital européen Georges-Pompidou",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Pont_du_Garigliano_-_H%C3%B4pital_europ%C3%A9en_Georges-Pompidou",
+        "line": "C",
+        "zone": "1",
+        "situation": "Aérienne",
+        "ville": "Paris 15e",
+        "correspondance": "3a",
+        "coords": {},
+        "date": "1889"
+    },
+    "javel": {
+        "name": "Javel",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Javel",
+        "line": "C",
+        "zone": "1",
+        "situation": "Tranchée",
+        "ville": "Paris 15e",
+        "correspondance": "10",
+        "coords": {
+            "lon": 2.278036281995908,
+            "lat": 48.84715690155799
+        },
+        "date": "1979-09-26"
+    },
+    "champ de mars - tour eiffel": {
+        "name": "Champ de Mars - Tour Eiffel",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Champ_de_Mars_-_Tour_Eiffel",
+        "line": "C",
+        "zone": "1",
+        "situation": "Tranchée",
+        "ville": "Paris 7e/15e",
+        "correspondance": "06",
+        "coords": {},
+        "date": "1867-02"
+    },
+    "pont de l'alma\nmusée du quai branly - jacques chirac": {
+        "name": "Pont de l'Alma\nMusée du quai Branly - Jacques Chirac",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Pont_de_l%27Alma",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 7e",
+        "correspondance": "09",
+        "coords": {},
+        "date": "1900-04-12"
+    },
+    "invalides": {
+        "name": "Invalides",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Invalides",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 7e",
+        "correspondance": "08",
+        "coords": {
+            "lon": 2.31251355492596,
+            "lat": 48.862884804554966
+        },
+        "date": "1900-04-12"
+    },
+    "musée d'orsay\nvaléry giscard d'estaing": {
+        "name": "Musée d'Orsay\nValéry Giscard d'Estaing",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Mus%C3%A9e_d%27Orsay",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 7e",
+        "correspondance": "12",
+        "coords": {},
+        "date": "1900-05-28"
+    },
+    "gare d'austerlitz": {
+        "name": "Gare d'Austerlitz",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Austerlitz",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 13e",
+        "correspondance": "05",
+        "coords": {},
+        "date": "1840-09-20"
+    },
+    "bibliothèque françois-mitterrand": {
+        "name": "Bibliothèque François-Mitterrand",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_la_Biblioth%C3%A8que_Fran%C3%A7ois-Mitterrand",
+        "line": "C",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 13e",
+        "correspondance": "14",
+        "coords": {
+            "lon": 2.37769700026936,
+            "lat": 48.82888070077747
+        },
+        "date": "2000-12-03"
+    },
+    "ivry-sur-seine": {
+        "name": "Ivry-sur-Seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ivry-sur-Seine",
+        "line": "C",
+        "zone": "2",
+        "situation": "Fleur de sol",
+        "ville": "Ivry-sur-Seine",
+        "correspondance": "07",
+        "coords": {
+            "lon": 2.3916869716625384,
+            "lat": 48.81398905200947
+        },
+        "date": "1900-06-08"
+    },
+    "vitry-sur-seine": {
+        "name": "Vitry-sur-Seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Vitry-sur-Seine",
+        "line": "C",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Vitry-sur-Seine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.40271281718153,
+            "lat": 48.80020939834459
+        }
+    },
+    "les ardoines": {
+        "name": "Les Ardoines",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Ardoines",
+        "line": "C",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Vitry-sur-Seine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4095902349857026,
+            "lat": 48.78222618353015
+        },
+        "date": "1977-09-25"
+    },
+    "chemin d'antony": {
+        "name": "Chemin d'Antony",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chemin_d%27Antony",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Antony",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3127110135157984,
+            "lat": 48.74794190188695
+        },
+        "date": "1977-09-25"
+    },
+    "rungis - la fraternelle": {
+        "name": "Rungis - La Fraternelle",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Rungis_-_La_Fraternelle",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Wissous, Rungis",
+        "correspondance": "7",
+        "coords": {
+            "lon": 2.351633198171911,
+            "lat": 48.74019544820277
+        },
+        "date": "1977-09-25"
+    },
+    "pont de rungis - aéroport d'orly": {
+        "name": "Pont de Rungis - Aéroport d'Orly",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Pont_de_Rungis_-_A%C3%A9roport_d%27Orly",
+        "line": "C",
+        "zone": "4",
+        "situation": "Tranchée",
+        "ville": "Thiais",
+        "correspondance": "14",
+        "coords": {}
+    },
+    "orly-ville": {
+        "name": "Orly-Ville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Orly-Ville",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Orly",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.40290860736794,
+            "lat": 48.741878705678886
+        },
+        "date": "1977-09-25"
+    },
+    "les saules": {
+        "name": "Les Saules",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Saules",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Orly",
+        "correspondance": "9",
+        "coords": {
+            "lon": 2.4175209778964915,
+            "lat": 48.74507216689389
+        }
+    },
+    "choisy-le-roi": {
+        "name": "Choisy-le-Roi",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Choisy-le-Roi",
+        "line": "C",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Choisy-le-Roi",
+        "correspondance": "Tvm",
+        "coords": {
+            "lon": 2.411386724936104,
+            "lat": 48.76378680955172
+        },
+        "date": "1840-09-20"
+    },
+    "villeneuve-le-roi": {
+        "name": "Villeneuve-le-Roi",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villeneuve-le-Roi",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne et à fleur de sol",
+        "ville": "Villeneuve-le-Roi",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4263998204748227,
+            "lat": 48.73983069943655
+        },
+        "date": "1914-03-29"
+    },
+    "ablon": {
+        "name": "Ablon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ablon",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Ablon-sur-Seine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4195650243879334,
+            "lat": 48.7255353048612
+        },
+        "date": "1843-05-05"
+    },
+    "athis-mons": {
+        "name": "Athis-Mons",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Athis-Mons",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Athis-Mons",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4036331049084922,
+            "lat": 48.71262898747626
+        }
+    },
+    "juvisy": {
+        "name": "Juvisy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Juvisy",
+        "line": "C",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Juvisy-sur-Orge",
+        "correspondance": "Ouigo Train Classique",
+        "coords": {
+            "lon": 2.3828460994526055,
+            "lat": 48.689764622382576
+        },
+        "date": "1843-06-10"
+    },
+    "savigny-sur-orge": {
+        "name": "Savigny-sur-Orge",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Savigny-sur-Orge",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne et à fleur de sol",
+        "ville": "Savigny-sur-Orge",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3524814010489976,
+            "lat": 48.676446656997726
+        }
+    },
+    "epinay-sur-orge": {
+        "name": "epinay-sur-orge",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89pinay-sur-Orge",
+        "line": "C",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Épinay-sur-Orge",
+        "correspondance": "12",
+        "coords": {}
+    },
+    "sainte-geneviève-des-bois": {
+        "name": "Sainte-Geneviève-des-Bois",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sainte-Genevi%C3%A8ve-des-Bois",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Sainte-Geneviève-des-Bois",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.312736251060263,
+            "lat": 48.65281140144265
+        },
+        "date": "1881"
+    },
+    "saint-michel-sur-orge": {
+        "name": "Saint-Michel-sur-Orge",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Michel-sur-Orge",
+        "line": "C",
+        "zone": "5",
+        "situation": "Aérienne et à fleur de sol",
+        "ville": "Saint-Michel-sur-Orge",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3068331640148254,
+            "lat": 48.63587586133944
+        },
+        "date": "1843-05-05"
+    },
+    "brétigny": {
+        "name": "Brétigny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Br%C3%A9tigny",
+        "line": "C",
+        "zone": "5",
+        "situation": "Aérienne et à fleur de sol",
+        "ville": "Brétigny-sur-Orge",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.302059691582639,
+            "lat": 48.606744948948126
+        },
+        "date": "1843-05-05"
+    },
+    "la norville - saint-germain-lès-arpajon": {
+        "name": "La Norville - Saint-Germain-lès-Arpajon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Norville_-_Saint-Germain-l%C3%A8s-Arpajon",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "La Norville",
+        "correspondance": "",
+        "coords": {}
+    },
+    "arpajon": {
+        "name": "Arpajon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Arpajon",
+        "line": "C",
+        "zone": "5",
+        "situation": "Aérienne et à fleur de sol",
+        "ville": "Arpajon",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.241070080902974,
+            "lat": 48.58600789080001
+        }
+    },
+    "egly": {
+        "name": "egly",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89gly",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Égly",
+        "correspondance": "",
+        "coords": {}
+    },
+    "breuillet - bruyères-le-châtel": {
+        "name": "Breuillet - Bruyères-le-Châtel",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Breuillet_-_Bruy%C3%A8res-le-Ch%C3%A2tel",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Breuillet",
+        "correspondance": "",
+        "coords": {}
+    },
+    "breuillet-village": {
+        "name": "Breuillet-Village",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Breuillet-Village",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Breuillet",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.1703772591600425,
+            "lat": 48.56432890676855
+        },
+        "date": "1865-12-28"
+    },
+    "saint-chéron": {
+        "name": "Saint-Chéron",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Ch%C3%A9ron",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Chéron",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.124937383537765,
+            "lat": 48.550926680302844
+        },
+        "date": "1865-12-28"
+    },
+    "sermaise": {
+        "name": "Sermaise",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Sermaise",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Sermaise",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.0693815248874716,
+            "lat": 48.5358065092437
+        },
+        "date": "1865-12-28"
+    },
+    "dourdan": {
+        "name": "Dourdan",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Dourdan",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Dourdan",
+        "correspondance": "TER Centre-Val de Loire",
+        "coords": {
+            "lon": 2.0087718138734374,
+            "lat": 48.53373283397724
+        },
+        "date": "1865"
+    },
+    "dourdan - la forêt": {
+        "name": "Dourdan - La Forêt",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Dourdan_-_La_For%C3%AAt",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Dourdan",
+        "correspondance": "",
+        "coords": {}
+    },
+    "marolles-en-hurepoix": {
+        "name": "Marolles-en-Hurepoix",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Marolles-en-Hurepoix",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Marolles-en-Hurepoix",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2909244684897176,
+            "lat": 48.56559386282182
+        },
+        "date": "1843-05-05"
+    },
+    "bouray": {
+        "name": "Bouray",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bouray",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Lardy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.2900825138403964,
+            "lat": 48.53289010324473
+        },
+        "date": "1843-05-05"
+    },
+    "lardy": {
+        "name": "Lardy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Lardy",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Lardy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.254739702427517,
+            "lat": 48.52040359106998
+        },
+        "date": "1843-05-05"
+    },
+    "chamarande": {
+        "name": "Chamarande",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chamarande",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Chamarande",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.21551781194949,
+            "lat": 48.514245875300325
+        },
+        "date": "1843-05-05"
+    },
+    "etrechy": {
+        "name": "etrechy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89tr%C3%A9chy",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Étréchy",
+        "correspondance": "",
+        "coords": {},
+        "date": "1843-05-05"
+    },
+    "etampes": {
+        "name": "etampes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89tampes",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Étampes",
+        "correspondance": "TER Centre-Val de Loire",
+        "coords": {},
+        "date": "1843-05-05"
+    },
+    "saint-martin-d'étampes": {
+        "name": "Saint-Martin-d'Étampes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Martin-d%27%C3%89tampes",
+        "line": "C",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Étampes",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.1452465929031157,
+            "lat": 48.42736258418355
+        },
+        "date": "1970-09-27"
+    },
+    "creil": {
+        "name": "Creil",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Creil",
+        "line": "D",
+        "zone": "*",
+        "situation": "Fleur de sol",
+        "ville": "Creil",
+        "correspondance": "H",
+        "coords": {
+            "lon": 2.4689141153510383,
+            "lat": 49.26394414450534
+        },
+        "date": "1846-06-20"
+    },
+    "chantilly - gouvieux": {
+        "name": "Chantilly - Gouvieux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chantilly_-_Gouvieux",
+        "line": "D",
+        "zone": "*",
+        "situation": "Fleur de sol",
+        "ville": "Chantilly",
+        "correspondance": "TER Hauts-de-France",
+        "coords": {
+            "lon": 2.459549118844453,
+            "lat": 49.187087205195866
+        },
+        "date": "1859-05-10"
+    },
+    "orry-la-ville - coye": {
+        "name": "Orry-la-Ville - Coye",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Orry-la-Ville_-_Coye",
+        "line": "D",
+        "zone": "*",
+        "situation": "Fleur de sol",
+        "ville": "Orry-la-Ville",
+        "correspondance": "TER Hauts-de-France",
+        "coords": {},
+        "date": "1859-05-10"
+    },
+    "la borne blanche": {
+        "name": "La Borne Blanche",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Borne_Blanche",
+        "line": "D",
+        "zone": "*",
+        "situation": "Fleur de sol",
+        "ville": "Orry-la-Ville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.507013841603866,
+            "lat": 49.12620996065864
+        },
+        "date": "1964-12"
+    },
+    "survilliers - fosses": {
+        "name": "Survilliers - Fosses",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Survilliers_-_Fosses",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Fosses",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.525531713992054,
+            "lat": 49.099586939193706
+        },
+        "date": "1859-06-01"
+    },
+    "louvres": {
+        "name": "Louvres",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Louvres",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Louvres",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5017580658464627,
+            "lat": 49.04932560088567
+        },
+        "date": "1859"
+    },
+    "les noues": {
+        "name": "Les Noues",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Noues",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Goussainville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.478033365115082,
+            "lat": 49.03318276903128
+        },
+        "date": "1859"
+    },
+    "goussainville": {
+        "name": "Goussainville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Goussainville",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Goussainville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4621689661352346,
+            "lat": 49.02316199903104
+        }
+    },
+    "villiers-le-bel - gonesse - arnouville": {
+        "name": "Villiers-le-Bel - Gonesse - Arnouville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villiers-le-Bel_-_Gonesse_-_Arnouville",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Arnouville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4161874889269837,
+            "lat": 48.99377714689272
+        },
+        "date": "1859"
+    },
+    "garges - sarcelles": {
+        "name": "Garges - Sarcelles",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Garges_-_Sarcelles",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Garges-lès-Gonesse, Sarcelles",
+        "correspondance": "5",
+        "coords": {
+            "lon": 2.3905936526418383,
+            "lat": 48.976747848293925
+        },
+        "date": "1959"
+    },
+    "pierrefitte - stains": {
+        "name": "Pierrefitte - Stains",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Pierrefitte_-_Stains",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Denis",
+        "correspondance": "11",
+        "coords": {
+            "lon": 2.3721031384025686,
+            "lat": 48.96375542962029
+        },
+        "date": "1859-05-10"
+    },
+    "saint-denis": {
+        "name": "Saint-Denis",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Denis",
+        "line": "D",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Saint-Denis",
+        "correspondance": "1",
+        "coords": {
+            "lon": 2.3456043781962905,
+            "lat": 48.93445554506132
+        },
+        "date": "1846-06-21"
+    },
+    "stade de france - saint-denis": {
+        "name": "Stade de France - Saint-Denis",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Stade_de_France_-_Saint-Denis",
+        "line": "D",
+        "zone": "2",
+        "situation": "Aérienne",
+        "ville": "Saint-Denis",
+        "correspondance": "13",
+        "coords": {
+            "lon": 2.3503895378897677,
+            "lat": 48.91756717658464
+        },
+        "date": "1998-01-25"
+    },
+    "maisons-alfort - alfortville": {
+        "name": "Maisons-Alfort - Alfortville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Maisons-Alfort_-_Alfortville",
+        "line": "D",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Alfortville, Maisons-Alfort",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.426482408484048,
+            "lat": 48.80204938032392
+        },
+        "date": "1849-08-12"
+    },
+    "le vert de maisons": {
+        "name": "Le Vert de Maisons",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Vert_de_Maisons",
+        "line": "D",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Alfortville, Maisons-Alfort",
+        "correspondance": "",
+        "coords": {},
+        "date": "1955-05-28"
+    },
+    "creteil-pompadour": {
+        "name": "creteil-pompadour",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cr%C3%A9teil-Pompadour",
+        "line": "D",
+        "zone": "3",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Créteil",
+        "correspondance": "Tvm 393",
+        "coords": {},
+        "date": "2013-12-15"
+    },
+    "villeneuve-triage": {
+        "name": "Villeneuve-Triage",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villeneuve-Triage",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Villeneuve-Saint-Georges",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.438668340778227,
+            "lat": 48.744500702150724
+        }
+    },
+    "villeneuve-saint-georges": {
+        "name": "Villeneuve-Saint-Georges",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villeneuve-Saint-Georges",
+        "line": "D",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Villeneuve-Saint-Georges",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.446226445438707,
+            "lat": 48.73063829288859
+        },
+        "date": "1849-08-12"
+    },
+    "montgeron - crosne": {
+        "name": "Montgeron - Crosne",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Montgeron_-_Crosne",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Montgeron",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.462282244689792,
+            "lat": 48.70823782858165
+        },
+        "date": "1995"
+    },
+    "yerres": {
+        "name": "Yerres",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Yerres",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Yerres",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4842425564350705,
+            "lat": 48.7066109356985
+        },
+        "date": "1951"
+    },
+    "brunoy": {
+        "name": "Brunoy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Brunoy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Brunoy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.506676982547088,
+            "lat": 48.69910694695422
+        },
+        "date": "1852"
+    },
+    "boussy-saint-antoine": {
+        "name": "Boussy-Saint-Antoine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boussy-Saint-Antoine",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Boussy-Saint-Antoine, Quincy-sous-Sénart",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5331306565710374,
+            "lat": 48.68101661634273
+        },
+        "date": "1969-06"
+    },
+    "combs-la-ville - quincy": {
+        "name": "Combs-la-Ville - Quincy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Combs-la-Ville_-_Quincy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Combs-la-Ville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5475480458143664,
+            "lat": 48.667901961049886
+        },
+        "date": "1849-08-12"
+    },
+    "lieusaint - moissy": {
+        "name": "Lieusaint - Moissy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Lieusaint_-_Moissy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Lieusaint, Moissy-Cramayel",
+        "correspondance": "Tzen 1",
+        "coords": {
+            "lon": 2.569583548236461,
+            "lat": 48.62837555172384
+        },
+        "date": "1995"
+    },
+    "savigny-le-temple - nandy": {
+        "name": "Savigny-le-Temple - Nandy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Savigny-le-Temple_-_Nandy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Aérienne",
+        "ville": "Savigny-le-Temple",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5839477110612505,
+            "lat": 48.59556383799178
+        },
+        "date": "1976-07-31"
+    },
+    "cesson": {
+        "name": "Cesson",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Cesson",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Cesson",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.594551816007613,
+            "lat": 48.56494949567092
+        },
+        "date": "1855"
+    },
+    "le mée": {
+        "name": "Le Mée",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_M%C3%A9e",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Le Mée-sur-Seine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.6255221550663017,
+            "lat": 48.538775256627815
+        },
+        "date": "1955-05-28"
+    },
+    "vigneux-sur-seine": {
+        "name": "Vigneux-sur-Seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Vigneux-sur-Seine",
+        "line": "D",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Vigneux-sur-Seine",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4138711503513184,
+            "lat": 48.70812051426092
+        },
+        "date": "1973"
+    },
+    "viry-châtillon": {
+        "name": "Viry-Châtillon",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Viry-Ch%C3%A2tillon",
+        "line": "D",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Viry-Châtillon",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.386783798391593,
+            "lat": 48.6760924339657
+        },
+        "date": "1959-01"
+    },
+    "ris-orangis": {
+        "name": "Ris-Orangis",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Ris-Orangis",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Ris-Orangis",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.415206841330065,
+            "lat": 48.658975423830064
+        }
+    },
+    "grand bourg": {
+        "name": "Grand Bourg",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Grand_Bourg",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Ris-Orangis",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.435330530181304,
+            "lat": 48.64848911258699
+        },
+        "date": "1840"
+    },
+    "evry-val-de-seine": {
+        "name": "evry-val-de-seine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89vry-Val-de-Seine",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Évry-Courcouronnes",
+        "correspondance": "",
+        "coords": {}
+    },
+    "grigny-centre": {
+        "name": "Grigny-Centre",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Grigny-Centre",
+        "line": "D",
+        "zone": "5",
+        "situation": "Tranchée partiellement couverte",
+        "ville": "Grigny",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3967835034154406,
+            "lat": 48.654849335430036
+        },
+        "date": "1974-02-16"
+    },
+    "orangis - bois de l'épine": {
+        "name": "Orangis - Bois de l'Épine",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Orangis_-_Bois_de_l%27%C3%89pine",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Ris-Orangis",
+        "correspondance": "",
+        "coords": {},
+        "date": "1975-12-06"
+    },
+    "evry-courcouronnes": {
+        "name": "evry-courcouronnes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89vry-Courcouronnes",
+        "line": "D",
+        "zone": "5",
+        "situation": "Souterraine",
+        "ville": "Évry-Courcouronnes",
+        "correspondance": "12",
+        "coords": {},
+        "date": "1975-12-06"
+    },
+    "le bras de fer\névry - génopole": {
+        "name": "Le Bras de Fer\nÉvry - Génopole",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Bras_de_Fer_-_%C3%89vry_-_G%C3%A9nopole",
+        "line": "D",
+        "zone": "5",
+        "situation": "Souterraine",
+        "ville": "Évry-Courcouronnes",
+        "correspondance": "",
+        "coords": {},
+        "date": "1975-12-06"
+    },
+    "corbeil-essonnes": {
+        "name": "Corbeil-Essonnes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Corbeil-Essonnes",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Corbeil-Essonnes",
+        "correspondance": "Tzen 1",
+        "coords": {
+            "lon": 2.4729336504587436,
+            "lat": 48.613427913594734
+        },
+        "date": "1840-09-17"
+    },
+    "essonnes - robinson": {
+        "name": "Essonnes - Robinson",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Essonnes_-_Robinson",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Corbeil-Essonnes",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4624564927796966,
+            "lat": 48.605555826378406
+        }
+    },
+    "villabé": {
+        "name": "Villabé",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villab%C3%A9",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Villabé",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.461550180897489,
+            "lat": 48.59281219034078
+        },
+        "date": "1897"
+    },
+    "le plessis-chenet": {
+        "name": "Le Plessis-Chenet",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Plessis-Chenet",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Le Coudray-Montceaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.479469169601778,
+            "lat": 48.573807793559
+        }
+    },
+    "le coudray-montceaux": {
+        "name": "Le Coudray-Montceaux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Coudray-Montceaux",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Le Coudray-Montceaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.492713002881577,
+            "lat": 48.56611782073621
+        },
+        "date": "1897"
+    },
+    "saint-fargeau": {
+        "name": "Saint-Fargeau",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Saint-Fargeau",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Fargeau-Ponthierry",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5426094498060046,
+            "lat": 48.56507294103619
+        },
+        "date": "1897"
+    },
+    "ponthierry - pringy": {
+        "name": "Ponthierry - Pringy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Ponthierry_-_Pringy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Saint-Fargeau-Ponthierry",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.544348950368586,
+            "lat": 48.535139766989644
+        },
+        "date": "1897"
+    },
+    "boissise-le-roi": {
+        "name": "Boissise-le-Roi",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boissise-le-Roi",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Boissise-le-Roi",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.572073662735743,
+            "lat": 48.52974691857647
+        }
+    },
+    "vosves": {
+        "name": "Vosves",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Vosves",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Dammarie-les-Lys",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5993042659192627,
+            "lat": 48.515151454141154
+        },
+        "date": "1897"
+    },
+    "melun": {
+        "name": "Melun",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Melun",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Melun",
+        "correspondance": "R",
+        "coords": {
+            "lon": 2.6549902821418874,
+            "lat": 48.527243321460155
+        },
+        "date": "1849-01-03"
+    },
+    "moulin-galant": {
+        "name": "Moulin-Galant",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Moulin-Galant",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Corbeil-Essonnes",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.4734903663442247,
+            "lat": 48.58715390715937
+        }
+    },
+    "mennecy": {
+        "name": "Mennecy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Mennecy",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Mennecy",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.432098533660357,
+            "lat": 48.5705968587192
+        },
+        "date": "1865-01-05"
+    },
+    "ballancourt": {
+        "name": "Ballancourt",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Ballancourt",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Ballancourt-sur-Essonne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3705184977367075,
+            "lat": 48.531501986486845
+        },
+        "date": "1865-01-05"
+    },
+    "la ferté-alais": {
+        "name": "La Ferté-Alais",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_La_Fert%C3%A9-Alais",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "La Ferté-Alais, Baulne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.352193814586844,
+            "lat": 48.485514299822704
+        }
+    },
+    "boutigny": {
+        "name": "Boutigny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boutigny",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Boutigny-sur-Essonne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3766728185069916,
+            "lat": 48.43449061286291
+        }
+    },
+    "maisse": {
+        "name": "Maisse",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Maisse",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Maisse",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.393410724066637,
+            "lat": 48.39364154774085
+        },
+        "date": "1865-01-05"
+    },
+    "buno - gironville": {
+        "name": "Buno - Gironville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Buno_-_Gironville",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Buno-Bonnevaux",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.387209797198101,
+            "lat": 48.371383292302916
+        },
+        "date": "1867"
+    },
+    "boigneville": {
+        "name": "Boigneville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Boigneville",
+        "line": "D",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Boigneville",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.3788154433118907,
+            "lat": 48.34166354461878
+        }
+    },
+    "malesherbes": {
+        "name": "Malesherbes",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Malesherbes",
+        "line": "D",
+        "zone": "*",
+        "situation": "Fleur de sol",
+        "ville": "Le Malesherbois",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.401133894429584,
+            "lat": 48.29359176873126
+        },
+        "date": "1867-05-06"
+    },
+    "nanterre-la folie": {
+        "name": "Nanterre-La Folie",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nanterre-La_Folie",
+        "line": "E",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Nanterre",
+        "correspondance": "A",
+        "coords": {
+            "lon": 2.223738843023636,
+            "lat": 48.897586648407284
+        },
+        "date": "2024-05-06"
+    },
+    "haussmann - saint-lazare": {
+        "name": "Haussmann - Saint-Lazare",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Haussmann_-_Saint-Lazare",
+        "line": "E",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 9e",
+        "correspondance": "03",
+        "coords": {
+            "lon": 2.3267224755800515,
+            "lat": 48.8750292564036
+        },
+        "date": "1999-07-14"
+    },
+    "magenta": {
+        "name": "Magenta",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Magenta",
+        "line": "E",
+        "zone": "1",
+        "situation": "Souterraine",
+        "ville": "Paris 10e",
+        "correspondance": "02",
+        "coords": {
+            "lon": 2.3587329590878596,
+            "lat": 48.88077520479297
+        },
+        "date": "1999-07-14"
+    },
+    "rosa-parks": {
+        "name": "Rosa-Parks",
+        "url": "https://fr.wikipedia.org/wiki/Gare_Rosa-Parks",
+        "line": "E",
+        "zone": "1",
+        "situation": "Aérienne",
+        "ville": "Paris 19e",
+        "correspondance": "3b",
+        "coords": {
+            "lon": 2.373819005403212,
+            "lat": 48.89658112861537
+        },
+        "date": "2015-12-13"
+    },
+    "pantin": {
+        "name": "Pantin",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Pantin",
+        "line": "E",
+        "zone": "2",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Pantin",
+        "correspondance": "3b",
+        "coords": {
+            "lon": 2.400361703159176,
+            "lat": 48.898112306280396
+        },
+        "date": "1864"
+    },
+    "noisy-le-sec": {
+        "name": "Noisy-le-Sec",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Noisy-le-Sec",
+        "line": "E",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Noisy-le-Sec",
+        "correspondance": "1",
+        "coords": {
+            "lon": 2.458363412015992,
+            "lat": 48.89665245114409
+        },
+        "date": "1849-07-05"
+    },
+    "bondy": {
+        "name": "Bondy",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Bondy",
+        "line": "E",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Bondy",
+        "correspondance": "4",
+        "coords": {
+            "lon": 2.4802059152605986,
+            "lat": 48.89395181173609
+        },
+        "date": "1849-07-05"
+    },
+    "le raincy - villemomble - montfermeil": {
+        "name": "Le Raincy - Villemomble - Montfermeil",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Raincy_-_Villemomble_-_Montfermeil",
+        "line": "E",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Le Raincy, Villemomble",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5131575327478117,
+            "lat": 48.88886574230645
+        }
+    },
+    "gagny": {
+        "name": "Gagny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Gagny",
+        "line": "E",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Gagny, Villemomble",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5254342507658434,
+            "lat": 48.88373428097724
+        },
+        "date": "1849-07-05"
+    },
+    "le chénay-gagny": {
+        "name": "Le Chénay-Gagny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_du_Ch%C3%A9nay-Gagny",
+        "line": "E",
+        "zone": "4",
+        "situation": "Fleur de sol et en tranchée",
+        "ville": "Gagny",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5528816497808324,
+            "lat": 48.87715783970278
+        }
+    },
+    "chelles - gournay": {
+        "name": "Chelles - Gournay",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Chelles_-_Gournay",
+        "line": "E",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Chelles",
+        "correspondance": "P",
+        "coords": {
+            "lon": 2.583331158055108,
+            "lat": 48.87414408301458
+        },
+        "date": "1849-07-05"
+    },
+    "rosny-bois-perrier": {
+        "name": "Rosny-Bois-Perrier",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Rosny-Bois-Perrier",
+        "line": "E",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Rosny-sous-Bois",
+        "correspondance": "11",
+        "coords": {
+            "lon": 2.481213457683429,
+            "lat": 48.88252792453506
+        },
+        "date": "1971"
+    },
+    "rosny-sous-bois": {
+        "name": "Rosny-sous-Bois",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Rosny-sous-Bois",
+        "line": "E",
+        "zone": "3",
+        "situation": "Fleur de sol",
+        "ville": "Rosny-sous-Bois",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.485761140611789,
+            "lat": 48.869912419186086
+        },
+        "date": "1856-07-07"
+    },
+    "nogent - le perreux": {
+        "name": "Nogent - Le Perreux",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Nogent_-_Le_Perreux",
+        "line": "E",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Nogent-sur-Marne, Le Perreux-sur-Marne",
+        "correspondance": "",
+        "coords": {},
+        "date": "1999-08-30"
+    },
+    "les boullereaux-champigny": {
+        "name": "Les Boullereaux-Champigny",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Boullereaux-Champigny",
+        "line": "E",
+        "zone": "3",
+        "situation": "Aérienne",
+        "ville": "Champigny-sur-Marne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5118555534510074,
+            "lat": 48.82484856949889
+        },
+        "date": "1974-01-13"
+    },
+    "villiers-sur-marne - le plessis-trévise": {
+        "name": "Villiers-sur-Marne - Le Plessis-Trévise",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Villiers-sur-Marne_-_Le_Plessis-Tr%C3%A9vise",
+        "line": "E",
+        "zone": "4",
+        "situation": "Aérienne",
+        "ville": "Villiers-sur-Marne",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.5426797940158528,
+            "lat": 48.82326663412408
+        },
+        "date": "1999-08-30"
+    },
+    "les yvris-noisy-le-grand": {
+        "name": "Les Yvris-Noisy-le-Grand",
+        "url": "https://fr.wikipedia.org/wiki/Gare_des_Yvris-Noisy-le-Grand",
+        "line": "E",
+        "zone": "4",
+        "situation": "Fleur de sol",
+        "ville": "Noisy-le-Grand",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.579837253911679,
+            "lat": 48.82315185583432
+        },
+        "date": "2003-12-14"
+    },
+    "emerainville": {
+        "name": "emerainville",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27%C3%89merainville_-_Pontault-Combault",
+        "line": "E",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Émerainville, Pontault-Combault",
+        "correspondance": "",
+        "coords": {},
+        "date": "1857-02-09"
+    },
+    "roissy-en-brie": {
+        "name": "Roissy-en-Brie",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Roissy-en-Brie",
+        "line": "E",
+        "zone": "5",
+        "situation": "Aérienne",
+        "ville": "Roissy-en-Brie",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.6503876684411503,
+            "lat": 48.79565482141207
+        },
+        "date": "1857-02-09"
+    },
+    "ozoir-la-ferrière": {
+        "name": "Ozoir-la-Ferrière",
+        "url": "https://fr.wikipedia.org/wiki/Gare_d%27Ozoir-la-Ferri%C3%A8re",
+        "line": "E",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Ozoir-la-Ferrière",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.6902527821957585,
+            "lat": 48.7707789170597
+        },
+        "date": "1857-02-09"
+    },
+    "gretz-armainvilliers": {
+        "name": "Gretz-Armainvilliers",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Gretz-Armainvilliers",
+        "line": "E",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Gretz-Armainvilliers",
+        "correspondance": "",
+        "coords": {
+            "lon": 2.7272293714297664,
+            "lat": 48.74645232070457
+        },
+        "date": "1857-02-09"
+    },
+    "tournan": {
+        "name": "Tournan",
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_Tournan",
+        "line": "E",
+        "zone": "5",
+        "situation": "Fleur de sol",
+        "ville": "Tournan-en-Brie",
+        "correspondance": "P",
+        "coords": {
+            "lon": 2.758824548674894,
+            "lat": 48.7394872073018
+        },
+        "date": "1861-02-02"
+    }
+}

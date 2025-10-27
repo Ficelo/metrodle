@@ -14,13 +14,16 @@
 }
 
 .green {
-
+    background-color: #008C58;
+    color: white;
 }
 
 .orange {
-
+    background-color: #9C993C;
+    color: white;
 }
 
 .black {
-
+    background-color: #3A3A3C;
+    color: white;
 }
