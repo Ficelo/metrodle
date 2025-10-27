@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import fs, { stat } from "fs";
+import fs from "fs";
 
 const wikiLink = "https://fr.wikipedia.org/wiki/Liste_des_gares_du_RER_d%27%C3%8Ele-de-France";
 
