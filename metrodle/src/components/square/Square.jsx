@@ -1,7 +1,16 @@
 import "./Square.css"
 import { useEffect, useRef } from 'react';
 
-export function Square({text}) {
+export const squareTypes = {
+    name: "name",
+    lines: "lines",
+    town: "town",
+    length: "length",
+    date: "date",
+    direction: "direction"
+}
+
+export function Square({ text, correctText, type }) {
 
     const pRef = useRef();
 
@@ -20,10 +29,25 @@ export function Square({text}) {
         }
     }, [text]);
 
+    // temp until I do the actual color logic
+    let color = "white";
+    if (type != squareTypes.name) {
+        if (text != correctText) {
+            color = "black";
+        }
+        if (correctText.includes(text)) {
+            color = "orange";
+        }
+        if (correctText == text) {
+            color = "green";
+        }
+    }
+
+
     return (
-        <div className='square white'>
-            <p ref={pRef}>{text}</p>
-        </div>
+        <div className={"square " + color}>
+            < p ref = { pRef } > { text }</p >
+        </div >
     );
 
 }
@@ -32,7 +56,7 @@ export function ArrowSquare() {
 
     return (
         <div className='square'>
-            
+
         </div>
     );
 

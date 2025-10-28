@@ -44,5 +44,5 @@ for(let station of Object.keys(currentMetro)) {
 }
 
 saveToFile(currentMetro, 2);
-console.log("Written to file")
+console.log("Written to file");
 

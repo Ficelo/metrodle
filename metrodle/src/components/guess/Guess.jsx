@@ -1,18 +1,18 @@
 import "./Guess.css"
-import { Square } from "../square/Square.jsx"
+import { Square, squareTypes } from "../square/Square.jsx"
 
-export function Guess({station, lines, town, length, date, direction}) {
+export function Guess({station, lines, town, length, date, direction, correctStation, isName}) {
 
-    // todo change last square when arrow system works
+    // TODO : change last square when arrow system works
 
     return (
         <div className='guess'>
-            <Square text={station} ></Square>
-            <Square text={lines}></Square>
-            <Square text={town}></Square>
-            <Square text={length}></Square>
-            <Square text={date}></Square>
-            <Square text={direction}></Square> 
+            <Square text={station} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.name} ></Square>
+            <Square text={lines} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.lines}></Square>
+            <Square text={town} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.town}></Square>
+            <Square text={length} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.length}></Square>
+            <Square text={date} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.date}></Square>
+            <Square text={direction} correctText={""} type={(isName) ? squareTypes.name  : squareTypes.direction}></Square> 
         </div>
     );
 
