@@ -1,5 +1,6 @@
 import "./Square.css"
 import { useEffect, useRef } from 'react';
+import { getCorrectMetroStation } from "../../services/station";
 
 export const squareTypes = {
     name: "name",
@@ -13,6 +14,8 @@ export const squareTypes = {
 export function Square({ text, correctText, type }) {
 
     const pRef = useRef();
+    const correctStation = getCorrectMetroStation();
+    console.log(correctStation);
 
     useEffect(() => {
         const el = pRef.current;
