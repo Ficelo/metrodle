@@ -2,6 +2,7 @@ import "./MetroPage.css";
 import "../../App.css";
 import { useState } from "react";
 import { Guess } from "../../components/guess/Guess.jsx";
+import { getCorrectMetroStation } from "../../services/station.js";
 import stationsMetro from "../../data/metro-stations-v1.json";
 
 
@@ -21,9 +22,9 @@ export function MetroPage({ backColor, color }) {
             station={guess.name}
             lines={guess.lines}
             town={guess.town}
-            length={guess.name}
-            date={guess.date}
-            direction={""} // TODO add direction getting function
+            length={guess.name.length}
+            date={guess.opening_date}
+            direction={guess.coords}
             isName={false}
         ></Guess>
     })
@@ -51,6 +52,8 @@ export function MetroPage({ backColor, color }) {
         if (!inputValue) return;
         
         const index = possibleStations.indexOf(inputValue);
+        const correct = getCorrectMetroStation();
+        console.log("Correct : ", correct);
         console.log(stationsMetro[stationsKeys[index]]);
 
         setGuesses([stationsMetro[stationsKeys[index]], ...guesses]);
