@@ -4,6 +4,7 @@ import { getCorrectMetroStation } from "../../services/station";
 
 export const squareTypes = {
     name: "name",
+    stationName : "stationName",
     lines: "lines",
     town: "town",
     length: "length",
@@ -12,6 +13,10 @@ export const squareTypes = {
 }
 
 function getArrowFromCoords(guessCoords, correctCoords) {
+
+    if(guessCoords === correctCoords) {
+        return "CENTER"
+    }
 
     const toRadiant = (deg) => deg * Math.PI / 180;
     const toDegrees = (rad) => rad * 180 / Math.PI;
@@ -60,9 +65,18 @@ export function Square({ text, type }) {
     }, [text]);
 
     let color = "black";
+    let delay = "0ms"
 
     switch(type) {
         case squareTypes.name: 
+            color = "white";
+             return (
+                <div className={"square " + color} style={{animationDelay: delay}}>
+                    <p ref={pRef}>{text}</p>
+                </div >
+            );
+            break;
+        case squareTypes.stationName: 
             color = "white";
             break;
         case squareTypes.lines:
@@ -71,33 +85,45 @@ export function Square({ text, type }) {
             } else if (correctStation.lines.includes(text)) { // Need a separate function for this
                 color = "orange";
             }
+            delay = "200ms";
             break;
         case squareTypes.town:
             if (text == correctStation.town) {
                 color = "green";
             }
+            delay = "400ms";
             break;
         case squareTypes.length:
             if (text == correctStation.name.length) {
                 color = "green";
             }
+            delay = "600ms";
             break;
         case squareTypes.date:
             if (text == correctStation.opening_date) {
                 color = "green";
             }
+            delay = "800ms";
             break;
         case squareTypes.direction:
-            console.log("direction")
-            console.log(getArrowFromCoords(text, correctStation.coords));
-            return (
-                <div className="square" style={{
-                    border: "2px solid #9C993C",
-                    backgroundImage: `url(/images/Point-direction-${getArrowFromCoords(text, correctStation.coords)}.png)`,
-                    backgroundSize: "fill",
-                    backgroundPosition : "center"
-                }}></div>
-            );
+
+            const direction = getArrowFromCoords(text, correctStation.coords)
+
+            if (direction == "CENTER") {
+                delay = "1000ms";
+                color = "green";
+                text = "";
+            } else {
+                return (
+                    <div className="square flip" style={{
+                        border: "2px solid #9C993C",
+                        backgroundImage: `url(/images/Point-direction-${direction}.png)`,
+                        backgroundSize: "fill",
+                        backgroundPosition : "center",
+                        animationDelay: "1000ms"
+                    }}></div>
+                );
+            }
             break;
         default:
             color = "black";
@@ -106,19 +132,9 @@ export function Square({ text, type }) {
 
 
     return (
-        <div className={"square " + color}>
+        <div className={"flip square " + color} style={{animationDelay: delay}}>
             < p ref = { pRef } > { text }</p >
         </div >
-    );
-
-}
-
-export function ArrowSquare() {
-
-    return (
-        <div className='square'>
-
-        </div>
     );
 
 }

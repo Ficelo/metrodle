@@ -15,3 +15,11 @@ export function getCorrectMetroStation() {
     const index = Math.abs(hash) % Object.keys(stationsMetro).length;
     return stationsMetro[Object.keys(stationsMetro)[index]];
 }
+
+export function setMetroSave(guesses, found) {
+    localStorage.setItem('metro-save', JSON.stringify({found : found, guesses : guesses}));
+}
+
+export function getMetroSave() {
+    return JSON.parse(localStorage.getItem('metro-save'));
+}

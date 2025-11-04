@@ -2,14 +2,13 @@ import "./MetroPage.css";
 import "../../App.css";
 import { useState } from "react";
 import { Guess } from "../../components/guess/Guess.jsx";
-import { getCorrectMetroStation } from "../../services/station.js";
+import { getCorrectMetroStation, getMetroSave, setMetroSave } from "../../services/station.js";
 import stationsMetro from "../../data/metro-stations-v1.json";
-
 
 export function MetroPage({ backColor, color }) {
 
-    const [guesses, setGuesses] = useState([]);
-    // TODO : get the save data here when implemented
+    const [guesses, setGuesses] = useState((getMetroSave()) ? getMetroSave().guesses : []);
+    const [found, setFound] = useState((getMetroSave()) ? getMetroSave().found : false);
     const stationsKeys = Object.keys(stationsMetro);
     const possibleStations = Object.keys(stationsMetro).map((key) => stationsMetro[key].name);
 
@@ -18,7 +17,7 @@ export function MetroPage({ backColor, color }) {
 
     let guessObjects = guesses.map((guess) => {
         return <Guess
-            key={guesses.indexOf(guess)}
+            key={guesses.name + guess.opening_date}
             station={guess.name}
             lines={guess.lines}
             town={guess.town}
@@ -50,13 +49,20 @@ export function MetroPage({ backColor, color }) {
 
     const handleGuess = () => {
         if (!inputValue) return;
+
+        if(!possibleStations.includes(inputValue)) return; 
         
         const index = possibleStations.indexOf(inputValue);
         const correct = getCorrectMetroStation();
         console.log("Correct : ", correct);
         console.log(stationsMetro[stationsKeys[index]]);
 
+        if(correct == stationsMetro[stationsKeys[index]]) {
+            setFound(true); 
+        }
+
         setGuesses([stationsMetro[stationsKeys[index]], ...guesses]);
+        setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], false);
         console.log(guesses);
         setInputValue("");
         setSuggestions([]);
@@ -66,7 +72,7 @@ export function MetroPage({ backColor, color }) {
         <div className='game-container'>
             <h1 style={{ color: backColor }} className='page-title'>METRODLE</h1>
             <div className='input-container'>
-                <input style={{ borderColor: backColor }} onChange={handleChange} value={inputValue} type="text" placeholder="Entrez le nom d'une station" />
+                <input disabled={found} style={{ borderColor: backColor }} onChange={handleChange} value={inputValue} type="text" placeholder="Entrez le nom d'une station" />
                 {suggestions.length > 0 && (
                     <ul
                         className="autocomplete-list"
@@ -103,7 +109,7 @@ export function MetroPage({ backColor, color }) {
                         ))}
                     </ul>
                 )}
-                <button style={{ backgroundColor: backColor, color: color }} onClick={handleGuess}>GUESS</button>
+                <button style={{ backgroundColor: backColor, color: color }} onClick={handleGuess} disabled={found} >GUESS</button>
             </div>
             <div className="guesses">
                 <Guess
