@@ -3,8 +3,6 @@ import { Square, squareTypes } from "../square/Square.jsx"
 
 export function Guess({station, lines, town, length, date, direction, isName}) {
 
-    console.log("lines", lines);
-
     return (
         <div className='guess'>
             <Square key={station} text={station} type={(isName) ? squareTypes.name  : squareTypes.stationName} ></Square>

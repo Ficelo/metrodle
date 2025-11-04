@@ -12,6 +12,20 @@ export const squareTypes = {
     direction: "direction"
 }
 
+function getListFromString(list) {
+    return list.split(",");
+}
+
+function atLeastOneIncluded(list1, list2) {
+
+    for(let elem of list1) {
+        if (list2.includes(elem)) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function getArrowFromCoords(guessCoords, correctCoords) {
 
     if(guessCoords === correctCoords) {
@@ -80,9 +94,11 @@ export function Square({ text, type }) {
             color = "white";
             break;
         case squareTypes.lines:
-            if (text == correctStation.lines) {
+            
+
+            if (getListFromString(text) == correctStation.lines) {
                 color = "green";
-            } else if (correctStation.lines.includes(text)) { // Need a separate function for this
+            } else if (atLeastOneIncluded(getListFromString(text), correctStation.lines)) { // Need a separate function for this
                 color = "orange";
             }
             delay = "200ms";
@@ -118,7 +134,7 @@ export function Square({ text, type }) {
                     <div className="square flip" style={{
                         border: "2px solid #9C993C",
                         backgroundImage: `url(/images/Point-direction-${direction}.png)`,
-                        backgroundSize: "fill",
+                        backgroundSize: "100%",
                         backgroundPosition : "center",
                         animationDelay: "1000ms"
                     }}></div>
