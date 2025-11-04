@@ -60,10 +60,12 @@ export function MetroPage({ backColor, color }) {
 
         if(correct == stationsMetro[stationsKeys[index]]) {
             setFound(true); 
+            setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], true);
+        } else {
+            setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], false);
         }
 
         setGuesses([stationsMetro[stationsKeys[index]], ...guesses]);
-        setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], false);
         console.log(guesses);
         setInputValue("");
         setSuggestions([]);
