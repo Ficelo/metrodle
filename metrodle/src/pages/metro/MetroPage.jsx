@@ -48,9 +48,10 @@ export function MetroPage({ backColor, color }) {
     };
 
     const handleGuess = () => {
-        if (!inputValue) return;
-
+        if(!inputValue) return;
         if(!possibleStations.includes(inputValue)) return; 
+        const guessNames = guesses.map((g) => g.name);
+        if(guessNames.includes(inputValue)) return;
         
         const index = possibleStations.indexOf(inputValue);
         const correct = getCorrectMetroStation();
