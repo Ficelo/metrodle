@@ -1,5 +1,4 @@
 .page-title {
-    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 96px;
     text-align: center;
@@ -29,7 +28,6 @@
     background-color: #018E59;
     border: none;
     border-radius: 14px;
-    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 16px;
     color: white;

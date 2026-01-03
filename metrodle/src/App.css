@@ -1,6 +1,7 @@
 html {
     min-width: 100vw;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +32,7 @@ body {
 .metro-station {
     display: flex;
     flex-direction: column;
-    font-family: 'Helvetica Neue';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #1A3C90;
     width: 60px;

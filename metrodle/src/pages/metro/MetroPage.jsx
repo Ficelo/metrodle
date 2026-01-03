@@ -1,7 +1,7 @@
 import "./MetroPage.css";
 import "../../App.css";
 import { useState } from "react";
-import { Guess } from "../../components/guess/Guess.jsx";
+import { Guess, MetroGuess } from "../../components/guess/MetroGuess.jsx";
 import { getCorrectMetroStation, getMetroSave, setMetroSave } from "../../services/station.js";
 import stationsMetro from "../../data/metro-stations-v1.json";
 
@@ -16,7 +16,7 @@ export function MetroPage({ backColor, color }) {
     const [suggestions, setSuggestions] = useState([]);
 
     let guessObjects = guesses.map((guess) => {
-        return <Guess
+        return <MetroGuess
             key={guesses.name + guess.opening_date}
             station={guess.name}
             lines={guess.lines}
@@ -25,7 +25,7 @@ export function MetroPage({ backColor, color }) {
             date={guess.opening_date}
             direction={guess.coords}
             isName={false}
-        ></Guess>
+        ></MetroGuess>
     })
 
     const handleChange = (e) => {
