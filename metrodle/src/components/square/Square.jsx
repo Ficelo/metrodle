@@ -2,7 +2,7 @@ import "./Square.css"
 import { useEffect, useRef } from 'react';
 import { getCorrectMetroStation } from "../../services/station";
 import { getArrowFromCoords } from "../../helper-functions/geolocation"
-import { getArrowFromGuessStatus } from "../../helper-functions/guessValidation";
+import { getArrowFromGuessStatus, getColorFromGuessStatus } from "../../helper-functions/guessValidation";
 
 export const squareTypes = {
     name: "name",
@@ -58,6 +58,7 @@ export function BasicSquare({ text, color, delay }) {
 export function ArrowSquare({text, status, delay}) {
 
     const arrowDirection = getArrowFromGuessStatus(status);
+    const color = getColorFromGuessStatus(status);
 
     const pRef = useRef();
 
@@ -77,7 +78,7 @@ export function ArrowSquare({text, status, delay}) {
     }, [text]);
 
     return (
-        <div className={"flip square "} style={{ backgroundImage: `url(/images/arrow_${arrowDirection}.png)`,animationDelay: delay }}>
+        <div className={"flip square " + color} style={{ backgroundImage: `url(/images/arrow_${arrowDirection}.png)`,animationDelay: delay }}>
             < p ref={pRef} > {text}</p >
         </div >
     );

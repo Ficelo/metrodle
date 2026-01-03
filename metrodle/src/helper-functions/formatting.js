@@ -6,7 +6,7 @@ export function formatLinesString(lines) {
         if (i >= lines.length - 1) {
             result += lines[i]
         } else {
-            result += `${lines[i]}, `;
+            result += `${lines[i]} `;
         }
     }
 

@@ -73,6 +73,10 @@ export function isOpeningDateCorrect(guess, answer) {
 export function getColorFromGuessStatus(guessStatus) {
     if (guessStatus === guessStatuses.correct) return "green";
     if (guessStatus === guessStatuses.partial) return "orange";
+    if (guessStatus === guessStatuses.longer) return "red";
+    if (guessStatus === guessStatuses.shorter) return "red";
+    if (guessStatus === guessStatuses.newer) return "red";
+    if (guessStatus === guessStatuses.older) return "red";
     return "black";
 }
 
