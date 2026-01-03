@@ -1,10 +1,12 @@
 import "./Square.css"
 import { useEffect, useRef } from 'react';
 import { getCorrectMetroStation } from "../../services/station";
+import { getArrowFromCoords } from "../../helper-functions/geolocation"
+import { getArrowFromGuessStatus } from "../../helper-functions/guessValidation";
 
 export const squareTypes = {
     name: "name",
-    stationName : "stationName",
+    stationName: "stationName",
     lines: "lines",
     town: "town",
     length: "length",
@@ -18,7 +20,7 @@ function getListFromString(list) {
 
 function atLeastOneIncluded(list1, list2) {
 
-    for(let elem of list1) {
+    for (let elem of list1) {
         if (list2.includes(elem)) {
             return true;
         }
@@ -26,36 +28,75 @@ function atLeastOneIncluded(list1, list2) {
     return false;
 }
 
-function getArrowFromCoords(guessCoords, correctCoords) {
+export function BasicSquare({ text, color, delay }) {
 
-    if(guessCoords === correctCoords) {
-        return "CENTER"
-    }
+    const pRef = useRef();
 
-    const toRadiant = (deg) => deg * Math.PI / 180;
-    const toDegrees = (rad) => rad * 180 / Math.PI;
+    useEffect(() => {
+        const el = pRef.current;
+        if (!el) return;
 
-    const lat1 = toRadiant(guessCoords.lat);
-    const lat2 = toRadiant(correctCoords.lat);
-    const deltaLat = toRadiant(correctCoords.lon - guessCoords.lon);
+        let fontSize = 16;
+        el.style.fontSize = `${fontSize}px`;
 
-    const x = Math.sin(deltaLat) * Math.cos(lat2);
-    const y = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2);
-    
-    let bearing = toDegrees(Math.atan2(x, y));
-    bearing = (bearing + 360) % 360;
+        const parent = el.parentElement;
 
-    let direction = "";
-    if(bearing >= 337.5 || bearing < 22.5) direction = "TOP"
-    else if (bearing < 67.5) direction = "TOP-RIGHT"
-    else if (bearing < 112.5) direction = "RIGHT"
-    else if (bearing < 157.5) direction = "BOTTOM-RIGHT"
-    else if (bearing < 202.5) direction = "BOTTOM"
-    else if (bearing < 247.5) direction = "BOTTOM-LEFT"
-    else if (bearing < 292.5) direction = "LEFT"
-    else direction = "TOP-LEFT";
+        while ((el.scrollWidth > parent.clientWidth || el.scrollHeight > parent.clientHeight) && fontSize > 6) {
+            fontSize -= 1;
+            el.style.fontSize = `${fontSize}px`;
+        }
+    }, [text]);
 
-    return direction;
+    return (
+        <div className={"flip square " + color} style={{ animationDelay: delay }}>
+            < p ref={pRef} > {text}</p >
+        </div >
+    );
+
+}
+
+export function ArrowSquare({text, status, delay}) {
+
+    const arrowDirection = getArrowFromGuessStatus(status);
+
+    const pRef = useRef();
+
+    useEffect(() => {
+        const el = pRef.current;
+        if (!el) return;
+
+        let fontSize = 16;
+        el.style.fontSize = `${fontSize}px`;
+
+        const parent = el.parentElement;
+
+        while ((el.scrollWidth > parent.clientWidth || el.scrollHeight > parent.clientHeight) && fontSize > 6) {
+            fontSize -= 1;
+            el.style.fontSize = `${fontSize}px`;
+        }
+    }, [text]);
+
+    return (
+        <div className={"flip square "} style={{ backgroundImage: `url(/images/arrow_${arrowDirection}.png)`,animationDelay: delay }}>
+            < p ref={pRef} > {text}</p >
+        </div >
+    );
+
+}
+
+export function DirectionSquare({ direction, delay }) {
+
+    // TODO : move to a specific css file
+    return (
+        <div className="square flip" style={{
+            border: "2px solid #9C993C",
+            backgroundImage: `url(/images/Point-direction-${direction}.png)`,
+            backgroundSize: "100%",
+            backgroundPosition: "center",
+            animationDelay: delay
+        }}></div>
+    );
+
 }
 
 export function Square({ text, type }) {
@@ -81,20 +122,20 @@ export function Square({ text, type }) {
     let color = "black";
     let delay = "0ms"
 
-    switch(type) {
-        case squareTypes.name: 
+    switch (type) {
+        case squareTypes.name:
             color = "white";
-             return (
-                <div className={"square " + color} style={{animationDelay: delay}}>
+            return (
+                <div className={"square " + color} style={{ animationDelay: delay }}>
                     <p ref={pRef}>{text}</p>
                 </div >
             );
             break;
-        case squareTypes.stationName: 
+        case squareTypes.stationName:
             color = "white";
             break;
         case squareTypes.lines:
-            
+
 
             if (getListFromString(text) == correctStation.lines) {
                 color = "green";
@@ -135,7 +176,7 @@ export function Square({ text, type }) {
                         border: "2px solid #9C993C",
                         backgroundImage: `url(/images/Point-direction-${direction}.png)`,
                         backgroundSize: "100%",
-                        backgroundPosition : "center",
+                        backgroundPosition: "center",
                         animationDelay: "1000ms"
                     }}></div>
                 );
@@ -148,8 +189,8 @@ export function Square({ text, type }) {
 
 
     return (
-        <div className={"flip square " + color} style={{animationDelay: delay}}>
-            < p ref = { pRef } > { text }</p >
+        <div className={"flip square " + color} style={{ animationDelay: delay }}>
+            < p ref={pRef} > {text}</p >
         </div >
     );
 
