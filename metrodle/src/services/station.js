@@ -17,9 +17,27 @@ export function getCorrectMetroStation() {
 }
 
 export function setMetroSave(guesses, found) {
-    localStorage.setItem('metro-save', JSON.stringify({found : found, guesses : guesses}));
+    localStorage.setItem('metro-save', JSON.stringify({found : found, date: new Date(), guesses : guesses}));
 }
 
 export function getMetroSave() {
-    return JSON.parse(localStorage.getItem('metro-save'));
+
+    const raw = localStorage.getItem('metro-save');
+    if(!raw) return null;
+
+    let save = JSON.parse(raw);
+    const today = new Date();
+
+    save.date = new Date(save.date);
+
+    const isSameDay = save.date.getFullYear() === today.getFullYear()
+                        && save.date.getMonth() === today.getMonth() 
+                        && save.date.getDate() === today.getDate();
+
+    if (!isSameDay) {
+        save.found = false;
+        save.guesses = [];
+    }
+
+    return save;
 }
