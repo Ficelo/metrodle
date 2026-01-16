@@ -5,6 +5,7 @@ import { Guess, MetroGuess } from "../../components/guess/MetroGuess.jsx";
 import { getCorrectMetroStation, getMetroSave, setMetroSave } from "../../services/station.js";
 import stationsMetro from "../../data/metro-stations-v1.json";
 import { WinScreen } from "../../components/win-message/WinScreen.jsx";
+import { SearchBar } from "../../components/searchbar/SearchBar.jsx";
 
 export function MetroPage({ backColor, color }) {
 
@@ -29,93 +30,35 @@ export function MetroPage({ backColor, color }) {
         ></MetroGuess>
     })
 
-    const handleChange = (e) => {
-        const value = e.target.value;
-        setInputValue(value);
+    const handleGuess = (stationName) => {
+        if (!possibleStations.includes(stationName)) return;
 
-        if (value.trim() === "") {
-            setSuggestions([]);
-        } else {
-            const filtered = possibleStations.filter((station) =>
-                station.toLowerCase().includes(value.toLowerCase())
-            );
-            setSuggestions(filtered.slice(0, 10));
-        }
-    };
-
-    const handleSelectSuggestion = (station) => {
-        setInputValue(station);
-        setSuggestions([]);
-    };
-
-    const handleGuess = () => {
-        if (!inputValue) return;
-        if (!possibleStations.includes(inputValue)) return;
         const guessNames = guesses.map((g) => g.name);
-        if (guessNames.includes(inputValue)) return;
+        if (guessNames.includes(stationName)) return;
 
-        const index = possibleStations.indexOf(inputValue);
+        const index = possibleStations.indexOf(stationName);
         const correct = getCorrectMetroStation();
-        console.log("Correct : ", correct);
-        console.log(stationsMetro[stationsKeys[index]]);
+        const guessedStation = stationsMetro[stationsKeys[index]];
 
-        if (correct == stationsMetro[stationsKeys[index]]) {
-            setFound(true);
-            setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], true);
-        } else {
-            setMetroSave([stationsMetro[stationsKeys[index]], ...guesses], false);
-        }
+        const newGuesses = [guessedStation, ...guesses];
+        const isCorrect = correct === guessedStation;
 
-        setGuesses([stationsMetro[stationsKeys[index]], ...guesses]);
-        console.log(guesses);
-        setInputValue("");
-        setSuggestions([]);
+        setFound(isCorrect);
+        setGuesses(newGuesses);
+        setMetroSave(newGuesses, isCorrect);
     };
 
     return (
         <div className='game-container'>
             <h1 style={{ color: backColor }} className='page-title'>METRODLE</h1>
             {!found ? (
-                <div className='input-container'>
-                    <input disabled={found} style={{ borderColor: backColor }} onChange={handleChange} value={inputValue} type="text" placeholder="Entrez le nom d'une station" />
-                    {suggestions.length > 0 && (
-                        <ul
-                            className="autocomplete-list"
-                            style={{
-                                position: "absolute",
-                                top: "100%",
-                                left: 0,
-                                width: "100%",
-                                backgroundColor: "white",
-                                borderRadius: "14px",
-                                fontFamily: 'Helvetica Neue',
-                                border: `2px solid ${backColor}`,
-                                listStyle: "none",
-                                margin: "5px 0 0 0",
-                                padding: 0,
-                                zIndex: 1000,
-                                maxHeight: "150px",
-                                overflowY: "auto",
-                            }}
-                        >
-                            {suggestions.map((station, i) => (
-                                <li
-                                    key={i}
-                                    onClick={() => handleSelectSuggestion(station)}
-                                    style={{
-                                        padding: "8px",
-                                        cursor: "pointer",
-                                        borderBottom: "1px solid #eee",
-                                    }}
-                                    onMouseDown={(e) => e.preventDefault()}
-                                >
-                                    {station}
-                                </li>
-                            ))}
-                        </ul>
-                    )}
-                    <button style={{ backgroundColor: backColor, color: color }} onClick={handleGuess} disabled={found} >GUESS</button>
-                </div>
+                <SearchBar
+                    possibleStations={possibleStations}
+                    onGuess={handleGuess}
+                    disabled={found}
+                    backColor={backColor}
+                    color={color}
+                ></SearchBar>
             ) : (
                 <WinScreen></WinScreen>
             )}
