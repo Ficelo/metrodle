@@ -61,7 +61,7 @@ export function SearchBar({
                         width: "100%",
                         backgroundColor: "white",
                         borderRadius: "14px",
-                        fontFamily: "Helvetica Neue",
+                        fontFamily: "Arial",
                         border: `2px solid ${backColor}`,
                         listStyle: "none",
                         margin: "5px 0 0 0",
