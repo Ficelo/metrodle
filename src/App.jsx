@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-do
 import { useState } from 'react'
 import './App.css'
 import { MetroPage } from "./pages/metro/MetroPage.jsx"
+import { ConstructionPage } from './pages/construction/ConstructionPage.jsx';
 
 function NavBar({backColor, setChosenIndex}) {
 
@@ -82,10 +83,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<MetroPage backColor={metroColors[chosenIndex]} color={textMetroColors[chosenIndex]}></MetroPage>}></Route>
-          <Route path="/combo" element={<RerPage></RerPage>}></Route>
-          <Route path="/rer" element={<TramPage></TramPage>}></Route>
-          <Route path="/tram" element={<ComboPage></ComboPage>}></Route>
-          <Route path="/infos" element={<InfoPage></InfoPage>}></Route>
+          <Route path="/combo" element={<ConstructionPage></ConstructionPage>}></Route>
+          <Route path="/rer" element={<ConstructionPage></ConstructionPage>}></Route>
+          <Route path="/tram" element={<ConstructionPage></ConstructionPage>}></Route>
+          <Route path="/infos" element={<ConstructionPage></ConstructionPage>}></Route>
         </Routes>
 
       </BrowserRouter>

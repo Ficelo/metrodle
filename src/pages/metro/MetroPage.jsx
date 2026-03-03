@@ -19,7 +19,7 @@ export function MetroPage({ backColor, color }) {
 
     let guessObjects = guesses.map((guess) => {
         return <MetroGuess
-            key={guesses.name + guess.opening_date}
+            key={guess.name + guess.opening_date}
             station={guess.name}
             lines={guess.lines}
             town={guess.town}
