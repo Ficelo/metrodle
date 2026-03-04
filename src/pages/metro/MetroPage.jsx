@@ -6,6 +6,8 @@ import { getCorrectMetroStation, getMetroSave, setMetroSave } from "../../servic
 import stationsMetro from "../../data/metro-stations-v1.json";
 import { WinScreen } from "../../components/win-message/WinScreen.jsx";
 import { SearchBar } from "../../components/searchbar/SearchBar.jsx";
+import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
+import { getCityCoords } from "../../helper-functions/geolocation.js";
 
 export function MetroPage({ backColor, color }) {
 
@@ -30,6 +32,14 @@ export function MetroPage({ backColor, color }) {
         ></MetroGuess>
     })
 
+    let markers = guesses.map((guess) => {
+        return <Marker position={[guess.coords.lat, guess.coords.lon]}>
+            <Popup>
+                {(guesses.length - guesses.indexOf(guess)) + " : " + guess.name}
+            </Popup>
+        </Marker>
+    });
+
     const handleGuess = (stationName) => {
         if (!possibleStations.includes(stationName)) return;
 
@@ -51,6 +61,16 @@ export function MetroPage({ backColor, color }) {
     return (
         <div className='game-container'>
             <h1 style={{ color: backColor }} className='page-title'>METRODLE</h1>
+            <div className="map">
+                <MapContainer center={[getCityCoords().lon, getCityCoords().lat]} zoom={11} scrollWheelZoom={true} maxZoom={14} minZoom={10}>
+                    <TileLayer
+                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    {markers}
+                </MapContainer>
+
+            </div>
             {!found ? (
                 <SearchBar
                     possibleStations={possibleStations}

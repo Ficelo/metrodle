@@ -29,3 +29,10 @@ export function getArrowFromCoords(guessCoords, correctCoords) {
 
     return direction;
 }
+
+export function getCityCoords(city) {
+    
+    // TODO : expand when other cities are added
+    
+    return {lon: '48.864716', lat: '2.349014'};
+}
