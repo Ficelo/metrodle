@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { StationsService } from '../../services/stations.service';
 import { GuessMetro } from "../../components/guess-metro/guess-metro";
+import { StationMetro } from '../../types/metro/metro-station';
 
 @Component({
   imports: [GuessMetro],
@@ -8,8 +9,15 @@ import { GuessMetro } from "../../components/guess-metro/guess-metro";
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
 })
-export class MetroPage {
+export class MetroPage implements OnInit {
 
-  constructor(private stationService: StationsService) {}
+  correctStation : StationMetro;
 
+  constructor(private stationService: StationsService) {
+    this.correctStation = this.stationService.getCorrectMetroStation();
+  }
+
+  ngOnInit() {
+    console.log('Correct station:', this.correctStation);
+  }
 }

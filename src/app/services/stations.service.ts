@@ -32,6 +32,19 @@ export class StationsService {
         }
     }
 
+    getCorrectMetroStation() : StationMetro {
+
+        const today = new Date();
+        const date = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+
+        let hash = date;
+        hash = ((hash << 5) - hash) + date;
+        
+        const index = Math.abs(hash) % this.metroStations.length;
+        
+        return this.metroStations[index];
+    }
+
     initializeRERStations() {
         // TODO : get the RER data
     }
