@@ -32,6 +32,10 @@ export class StationsService {
         }
     }
 
+    getMetroStationByName(name: string): StationMetro | undefined {
+        return this.metroStations.find(station => station.name.toLowerCase() === name.toLowerCase());
+    }
+
     getCorrectMetroStation() : StationMetro {
 
         const today = new Date();
@@ -43,6 +47,11 @@ export class StationsService {
         const index = Math.abs(hash) % this.metroStations.length;
         
         return this.metroStations[index];
+    }
+
+    isMetroStationCorrect(stationName: string): boolean {
+        const correctStation = this.getCorrectMetroStation();
+        return correctStation.name.toLowerCase() === stationName.toLowerCase();
     }
 
     initializeRERStations() {
