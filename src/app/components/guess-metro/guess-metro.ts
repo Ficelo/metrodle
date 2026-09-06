@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { SquareText } from "../squares/square-text/square-text";
+import { Square } from "../square/square";
 
 @Component({
-  imports: [SquareText],
+  imports: [Square],
   selector: 'metrodle-guess-metro',
   styleUrl: './guess-metro.scss',
   templateUrl: './guess-metro.html',

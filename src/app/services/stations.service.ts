@@ -37,7 +37,6 @@ export class StationsService {
     }
 
     getCorrectMetroStation() : StationMetro {
-
         const today = new Date();
         const date = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
 

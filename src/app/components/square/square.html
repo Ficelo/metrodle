@@ -1,0 +1,11 @@
+@if (type() === 'text') {
+    <div class="square-container">
+        {{ text() }}
+    </div>
+}
+
+@if (type() === 'image') {
+    <div class="square-container">
+        <img [src]="imageUrl()" alt="imageAlt()" />
+    </div>
+}

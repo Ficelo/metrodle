@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SquareText } from './square-text';
+import { Square } from './square';
 
-describe('SquareText', () => {
-  let component: SquareText;
-  let fixture: ComponentFixture<SquareText>;
+describe('Square', () => {
+  let component: Square;
+  let fixture: ComponentFixture<Square>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SquareText],
+      imports: [Square],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SquareText);
+    fixture = TestBed.createComponent(Square);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

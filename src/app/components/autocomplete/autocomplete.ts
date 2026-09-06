@@ -13,19 +13,19 @@ export interface AutocompleteOption {
 })
 export class Autocomplete {
 
-  options = input<AutocompleteOption[]>([]);
-  placeholder = input<string>('Search...');
-  maxResults = input<number>(6);
-  disabled = input(false);
+  readonly options = input<AutocompleteOption[]>([]);
+  readonly placeholder = input<string>('Search...');
+  readonly maxResults = input<number>(6);
+  readonly disabled = input(false);
 
-  selected = output<AutocompleteOption>();
-  cleared = output<void>();
+  readonly selected = output<AutocompleteOption>();
+  readonly cleared = output<void>();
 
-  query = signal<string>('');
-  isOpen = signal<boolean>(false);
-  activeIndex = signal<number>(-1);
+  readonly query = signal<string>('');
+  readonly isOpen = signal<boolean>(false);
+  readonly activeIndex = signal<number>(-1);
 
-  private inputElement = viewChild<ElementRef<HTMLInputElement>>('input');
+  private readonly inputElement = viewChild<ElementRef<HTMLInputElement>>('input');
 
   filteredOptions = computed(() => {
     const query = this.query().trim().toLocaleLowerCase();
