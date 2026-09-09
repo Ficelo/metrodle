@@ -2,15 +2,16 @@ import { DateResult, DirectionResult, LinesResult, NameLengthResult } from "../g
 import { StationMetro } from "./metro-station";
 
 export interface MetroGuess {
-    station: StationMetro;
-    correctStation: StationMetro;
+  station: StationMetro;
+  correctStation: StationMetro;
 }
 
 export interface MetroGuessResult {
-    name: boolean;
-    town: boolean;
-    lines: LinesResult;
-    length: NameLengthResult;
-    date: DateResult;
-    direction: DirectionResult;
+  station: StationMetro;
+  name: boolean;
+  town: boolean;
+  lines: LinesResult;
+  length: NameLengthResult;
+  date: DateResult;
+  direction: DirectionResult;
 }

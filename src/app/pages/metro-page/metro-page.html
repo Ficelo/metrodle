@@ -7,4 +7,11 @@
         (selected)="onMetroSelected($event)"
     />
     <metrodle-guess-metro />
+
+    @for (guess of guesses; track guess.station.name) {
+        <metrodle-guess-metro
+          [guess]="guess"
+        />
+    }
+
 </div>
