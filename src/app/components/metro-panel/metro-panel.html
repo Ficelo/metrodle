@@ -1,0 +1,75 @@
+<div class="metro-panel-container">
+  <div class="top-section">
+    <img id="logo-metro" src="metro logo.svg" />
+    <div id="line-icons-1">
+      @if (testStation.lines.length < 6) {
+        <img 
+          class="line-icon-big"
+          [src]="'line-' + testStation.lines[0] + '.svg'"
+        />
+      }
+      
+      @if (testStation.lines.length >= 6) {
+        <div>
+          @for (line of testStation.lines; track $index) {
+            <img 
+              class="line-icon-small" 
+              [src]="'line-' + line + '.svg'"
+            />
+          }
+        </div>
+      }
+    </div>
+    <div id="line-icons-2">
+      @if(testStation.lines.length == 2) {
+        <img 
+          class="line-icon-big"
+          [src]="'line-' + testStation.lines[1] + '.svg'"
+        />
+      }
+      @if (testStation.lines.length > 2 && testStation.lines.length < 6) {
+        <div class="lines-grid">
+          @for (line of testStation.lines.slice(1); track $index) {
+            <img 
+              class="line-icon-small"
+              [src]="'line-' + line + '.svg'"
+            />
+          }
+        </div>
+      }
+      @if (testStation.lines.length >= 6) {
+        <div>
+          @for (line of testStation.lines.slice(4); track $index) {
+            <img 
+              class="line-icon-small" 
+              [src]="'line-' + line + '.svg'"
+            />
+          }
+        </div>
+      }
+    </div>
+    <span class="station-name">{{ testStation.name }}</span>
+  </div>
+  <div class="middle-section">
+    <div class="middle-left">
+      <div class="infos">
+        <span class="middle-left-title">Essai</span>
+        <span class="try">
+          {{ try }}
+        </span>
+      </div>
+      <div class="separator"></div>
+      <div class="infos">
+        <span class="middle-left-title">Direction</span>
+        <span class="direction">
+          {{ "NE" }}
+        </span>
+      </div>
+    </div>
+    <div class="middle-right">
+      <div></div>
+      <div class="town-"></div>
+    </div>
+  </div>
+  <div class="bottom-section"></div>
+</div>

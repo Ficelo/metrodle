@@ -1,0 +1,82 @@
+.metro-panel-container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 6fr 10fr 2.5fr;
+}
+
+.top-section {
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.middle-section {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-section {
+    grid-row: 3;
+    background-color: orange;
+} 
+
+.middle-left {
+    background-color: black;
+    color: #FADF68;
+    font-family: Arial Rounded MT Bold, Helvetica, sans-serif;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column: 1;
+    padding: 0.5rem 1rem 0 1rem;
+    text-align: center;
+}
+
+.middle-right {
+    background-color: white;
+    grid-column: 2;
+}
+
+.separator {
+    background-color: white;
+}
+
+.middle-left-title {
+    color: white;
+    font-size: 1rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.station-name {
+    font-family: Arial Rounded MT Bold, Helvetica, sans-serif;
+    color: #061956;
+    font-size: 2rem;
+    vertical-align: text-bottom;
+}
+
+#logo-metro {
+    width: 48px;
+    height: 48px;
+}
+
+.lines-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.line-icon-big {
+    width: 48px;
+    height: 48px;
+}
+
+.line-icon-small {
+    width: 23px;
+    height: 23px;
+}

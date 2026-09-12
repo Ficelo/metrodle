@@ -8,10 +8,17 @@
     />
     <metrodle-guess-metro />
 
-    @for (guess of guesses; track guess.station.name) {
+    @for (guess of guesses.reverse(); track guess.station.name) {
         <metrodle-guess-metro
           [guess]="guess"
         />
     }
+    
+    <metrodle-metro-panel 
+
+    />
+    <metrodle-metro-panel 
+
+    />
 
 </div>

@@ -5,9 +5,10 @@ import { StationMetro } from '../../types/metro/metro-station';
 import { Autocomplete, AutocompleteOption } from "../../components/autocomplete/autocomplete";
 import { MetroGuessResult } from '../../types/metro/metro-guess';
 import { DateResult, DirectionResult, LinesResult, NameLengthResult } from '../../types/guess.enums';
+import { MetroPanel } from "../../components/metro-panel/metro-panel";
 
 @Component({
-  imports: [GuessMetro, Autocomplete],
+  imports: [GuessMetro, Autocomplete, MetroPanel],
   selector: 'app-metro-page',
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
@@ -40,7 +41,7 @@ export class MetroPage implements OnInit {
   }
 
   createMetroGuess(selectedStation: StationMetro) {
-    this.guesses.push({
+    this.guesses.unshift({
       station: selectedStation,
       name: true,
       town: true,
