@@ -1,5 +1,4 @@
 import { Component, input } from '@angular/core';
-import { StationMetro } from '../../types/metro/metro-station';
 import { MetroGuessResult } from '../../types/metro/metro-guess';
 import { StationsService } from '../../services/stations.service';
 
@@ -11,14 +10,11 @@ import { StationsService } from '../../services/stations.service';
 })
 export class MetroPanel {
 
-  // guess = input<MetroGuessResult>();
-  try = 4;
-  testStation : StationMetro;
+  guess = input.required<MetroGuessResult>();
+  try = input.required<number>();
 
-  constructor(private stationService: StationsService) {
-    this.testStation = stationService.getCorrectMetroStation();
-    // this.testStation.lines = ["4", "6", "12", "13", "14"];
-    
-  }
+  constructor(private stationService: StationsService) {}
+
+  // TODO : Add some hover explanation for each element
 
 }

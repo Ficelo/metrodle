@@ -1,14 +1,30 @@
+:host {
+    display: block;
+    width: 100%;
+    min-width: 0;
+}
+
 .metro-panel-container {
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     display: grid;
     grid-template-rows: 6fr 10fr 2.5fr;
+    margin-top: 5px;
 }
 
 .top-section {
     grid-row: 1;
+    min-width: 0;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     gap: 0.2rem;
+    border-width: 2px 2px 0 2px;
+    border-style: solid;
+    border-radius: 5px 5px 0 0;
+    padding: 0 5px 0 5px;
 }
 
 .middle-section {
@@ -19,7 +35,7 @@
 
 .bottom-section {
     grid-row: 3;
-    background-color: orange;
+    border-radius: 0 0 5px 5px;
 } 
 
 .middle-left {
@@ -29,19 +45,25 @@
     font-size: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     grid-column: 1;
     padding: 0.5rem 1rem 0 1rem;
     text-align: center;
+    align-items: center;
 }
 
 .middle-right {
-    background-color: white;
+    background-color: black;
     grid-column: 2;
+    display: flex;
 }
 
 .separator {
     background-color: white;
+    height: 50%;
+    width: 2%;
+    border-radius: 5px;
+    transform: translateY(10%);
 }
 
 .middle-left-title {
@@ -59,6 +81,12 @@
     color: #061956;
     font-size: 2rem;
     vertical-align: text-bottom;
+    min-width: 0;
+    max-width: 100%;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #logo-metro {
@@ -79,4 +107,52 @@
 .line-icon-small {
     width: 23px;
     height: 23px;
+}
+
+#line-icons-1 {
+    width: 48px;
+    height: 48px;
+}
+
+#line-icons-2 {
+    width: 48px;
+    height: 48px;
+}
+
+.info-panel {
+    background-color: white;
+    margin: 4% 4% 0 0;
+    border-radius: 5px 5px 0 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.date-container {
+    background-color: #D9D9D9;
+    margin-left: 40%;
+    border-radius: 0 5px 0 0;
+}
+
+.opening-date {
+    font-family: Arial Rounded MT Bold, Helvetica, sans-serif;
+    background-color: black;
+    color: #FADF68;
+    font-size: 16px;
+    margin: 0 10% 5% 30%;
+    padding: 2px;
+    text-align: center;
+}
+
+.town {
+    font-family: Arial Rounded MT Bold, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.town-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    white-space: normal;
+
 }

@@ -6,19 +6,13 @@
         [placeholder]="'Search for a metro'"
         (selected)="onMetroSelected($event)"
     />
-    <metrodle-guess-metro />
 
-    @for (guess of guesses.reverse(); track guess.station.name) {
-        <metrodle-guess-metro
+    @for (guess of guesses.reverse(); track $index) {
+        <metrodle-metro-panel
           [guess]="guess"
+          [try]="$index"
         />
     }
     
-    <metrodle-metro-panel 
-
-    />
-    <metrodle-metro-panel 
-
-    />
-
+    
 </div>

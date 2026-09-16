@@ -1,17 +1,17 @@
 <div class="metro-panel-container">
-  <div class="top-section">
+  <div [class]="'top-section line-' + guess().station.lines[0] + '-border'">
     <img id="logo-metro" src="metro logo.svg" />
     <div id="line-icons-1">
-      @if (testStation.lines.length < 6) {
+      @if (guess().station.lines.length < 6) {
         <img 
           class="line-icon-big"
-          [src]="'line-' + testStation.lines[0] + '.svg'"
+          [src]="'line-' + guess()!.station.lines[0] + '.svg'"
         />
       }
       
-      @if (testStation.lines.length >= 6) {
+      @if (guess().station.lines.length >= 6) {
         <div>
-          @for (line of testStation.lines; track $index) {
+          @for (line of guess().station.lines; track $index) {
             <img 
               class="line-icon-small" 
               [src]="'line-' + line + '.svg'"
@@ -21,15 +21,15 @@
       }
     </div>
     <div id="line-icons-2">
-      @if(testStation.lines.length == 2) {
+      @if(guess().station.lines.length == 2) {
         <img 
           class="line-icon-big"
-          [src]="'line-' + testStation.lines[1] + '.svg'"
+          [src]="'line-' + guess()!.station.lines[1] + '.svg'"
         />
       }
-      @if (testStation.lines.length > 2 && testStation.lines.length < 6) {
+      @if (guess().station.lines.length > 2 && guess()!.station.lines.length < 6) {
         <div class="lines-grid">
-          @for (line of testStation.lines.slice(1); track $index) {
+          @for (line of guess().station.lines.slice(1); track $index) {
             <img 
               class="line-icon-small"
               [src]="'line-' + line + '.svg'"
@@ -37,9 +37,9 @@
           }
         </div>
       }
-      @if (testStation.lines.length >= 6) {
+      @if (guess().station.lines.length >= 6) {
         <div>
-          @for (line of testStation.lines.slice(4); track $index) {
+          @for (line of guess().station.lines.slice(4); track $index) {
             <img 
               class="line-icon-small" 
               [src]="'line-' + line + '.svg'"
@@ -48,28 +48,35 @@
         </div>
       }
     </div>
-    <span class="station-name">{{ testStation.name }}</span>
+    <span class="station-name">{{ guess().station.name }}</span>
   </div>
   <div class="middle-section">
     <div class="middle-left">
       <div class="infos">
         <span class="middle-left-title">Essai</span>
         <span class="try">
-          {{ try }}
+          {{ try() + 1 }}
         </span>
       </div>
       <div class="separator"></div>
       <div class="infos">
         <span class="middle-left-title">Direction</span>
         <span class="direction">
-          {{ "NE" }}
+          {{ guess()!.direction }}
         </span>
       </div>
     </div>
     <div class="middle-right">
-      <div></div>
-      <div class="town-"></div>
+      <div class="info-panel">
+        <div class="date-container">
+          <div class="opening-date">{{guess().station.openingDate}}</div>
+        </div>
+        <div class="town-text">
+          <span class="town">{{guess().station.name}}</span>
+          : Signaler a nos agents tout objet abandonné ...
+        </div>
+      </div>
     </div>
   </div>
-  <div class="bottom-section"></div>
+  <div [class]="'bottom-section line-' + guess().station.lines[0] + '-bg'"></div>
 </div>
