@@ -1,24 +1,26 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, OnInit, ViewChild, signal } from '@angular/core';
 import { StationsService } from '../../services/stations.service';
-import { GuessMetro } from "../../components/guess-metro/guess-metro";
 import { StationMetro } from '../../types/metro/metro-station';
 import { Autocomplete, AutocompleteOption } from "../../components/autocomplete/autocomplete";
 import { MetroGuessResult } from '../../types/metro/metro-guess';
 import { DateResult, DirectionResult, LinesResult, NameLengthResult } from '../../types/guess.enums';
 import { MetroPanel } from "../../components/metro-panel/metro-panel";
+import { MapComponent } from '../../components/map/map';
 
 @Component({
-  imports: [GuessMetro, Autocomplete, MetroPanel],
+  imports: [Autocomplete, MetroPanel, MapComponent],
   selector: 'app-metro-page',
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
 })
 export class MetroPage implements OnInit {
 
+  @ViewChild(MapComponent) mapComponent!: MapComponent;
   correctStation : StationMetro;
   stationsMetro: StationMetro[] = [];
   autocompleteOptions = signal<AutocompleteOption[]>([]);
   guesses: MetroGuessResult[] = [];
+  
 
   constructor(private stationService: StationsService) {
     this.correctStation = this.stationService.getCorrectMetroStation();
@@ -41,6 +43,7 @@ export class MetroPage implements OnInit {
   }
 
   createMetroGuess(selectedStation: StationMetro) {
+    this.mapComponent.addStationOnMap(selectedStation);
     this.guesses.unshift({
       station: selectedStation,
       name: true,
