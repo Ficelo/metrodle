@@ -1,0 +1,75 @@
+.top-bar {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: end ;
+}
+
+.metro-bar {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    // background-color: #018E59;
+    z-index: 0;
+}
+
+.metro-station {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1A3C90;
+    width: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.metro-station a {
+    transform: rotate(-36deg) translateX(10px);
+    transform-origin: bottom left;
+    width: fit-content;
+    padding: 0 5px;
+    margin: 0;
+}
+
+.metro-station a:hover {
+    background-color: #1A3C90;
+    color: white;
+}
+
+.metro-circle {
+    width: 32px;
+    height: 32px;
+    // background-color: #018E59;
+    border-radius: 32px;
+}
+
+.metro-selected {
+    background-color: #1A3C90;
+    color: white;
+}
+
+.metro-link {
+    transform: rotate(-36deg) translateX(10px);
+    transform-origin: bottom left;
+    width: fit-content;
+    padding: 0 5px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.metro-link:hover {
+    background-color: #1A3C90;
+    color: white;
+}
+
+.metro-link-selected {
+    background-color: #1A3C90;
+    color: white;
+}
