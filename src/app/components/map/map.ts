@@ -29,7 +29,7 @@ export class MapComponent implements OnInit{
             image: new Icon({
               anchor: [0.5, 1],
               scale: 0.5,
-              src: 'default-map-icon.svg',
+              src: 'metro-station-icon.svg',
             })
           })
         });

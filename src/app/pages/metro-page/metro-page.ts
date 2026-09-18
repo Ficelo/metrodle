@@ -6,6 +6,7 @@ import { MetroGuessResult } from '../../types/metro/metro-guess';
 import { DateResult, DirectionResult, LinesResult, NameLengthResult } from '../../types/guess.enums';
 import { MetroPanel } from "../../components/metro-panel/metro-panel";
 import { MapComponent } from '../../components/map/map';
+import { ColorService } from '../../services/color.service';
 
 @Component({
   imports: [Autocomplete, MetroPanel, MapComponent],
@@ -20,20 +21,23 @@ export class MetroPage implements OnInit {
   stationsMetro: StationMetro[] = [];
   autocompleteOptions = signal<AutocompleteOption[]>([]);
   guesses: MetroGuessResult[] = [];
+  currentLine: string;
   
 
-  constructor(private stationService: StationsService) {
+  constructor(private stationService: StationsService, private colorService: ColorService) {
     this.correctStation = this.stationService.getCorrectMetroStation();
     this.stationsMetro = this.stationService.getMetroStations();
     this.autocompleteOptions.set(this.stationsMetro.map((station, index) => ({
       id: index,
       label: station.name
     })));
-
+    this.currentLine = this.colorService.getCurrentMetroLine();
   }
 
   ngOnInit() {
     console.log('Correct station:', this.correctStation);
+    this.colorService.refreshCurrentMetroLine();
+    this.currentLine = this.colorService.getCurrentMetroLine();
   }
 
   onMetroSelected(selectedStation: AutocompleteOption) {
