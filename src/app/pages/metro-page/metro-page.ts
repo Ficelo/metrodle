@@ -7,6 +7,7 @@ import { DateResult, DirectionResult, LinesResult, NameLengthResult } from '../.
 import { MetroPanel } from "../../components/metro-panel/metro-panel";
 import { MapComponent } from '../../components/map/map';
 import { ColorService } from '../../services/color.service';
+import { SaveService } from '../../services/save.service';
 
 @Component({
   imports: [Autocomplete, MetroPanel, MapComponent],
@@ -24,7 +25,7 @@ export class MetroPage implements OnInit {
   currentLine: string;
   
 
-  constructor(private stationService: StationsService, private colorService: ColorService) {
+  constructor(private stationService: StationsService, private colorService: ColorService, private saveService: SaveService) {
     this.correctStation = this.stationService.getCorrectMetroStation();
     this.stationsMetro = this.stationService.getMetroStations();
     this.autocompleteOptions.set(this.stationsMetro.map((station, index) => ({
@@ -38,17 +39,19 @@ export class MetroPage implements OnInit {
     console.log('Correct station:', this.correctStation);
     this.colorService.refreshCurrentMetroLine();
     this.currentLine = this.colorService.getCurrentMetroLine();
+    this.guesses = this.saveService.getMetroSave().guesses;
   }
 
   onMetroSelected(selectedStation: AutocompleteOption) {
     console.log(selectedStation);
     console.log(`${selectedStation.label} is ${this.stationService.isMetroStationCorrect(selectedStation.label) ? 'correct' : 'incorrect'}`);
     this.createMetroGuess(this.stationService.getMetroStationByName(selectedStation.label)!);
+    
   }
 
   createMetroGuess(selectedStation: StationMetro) {
     this.mapComponent.addStationOnMap(selectedStation);
-    this.guesses.unshift({
+    const newGuess = {
       station: selectedStation,
       name: true,
       town: true,
@@ -56,6 +59,8 @@ export class MetroPage implements OnInit {
       length: NameLengthResult.SHORTER,
       date: DateResult.LATER,
       direction: DirectionResult.NORTH
-    });
+    }
+    //this.guesses.unshift(newGuess);
+    this.saveService.addMetroGuess(newGuess);
   }
 }
