@@ -8,6 +8,7 @@ import { MetroPanel } from "../../components/metro-panel/metro-panel";
 import { MapComponent } from '../../components/map/map';
 import { ColorService } from '../../services/color.service';
 import { SaveService } from '../../services/save.service';
+import { GeoService } from '../../services/geo.service';
 
 @Component({
   imports: [Autocomplete, MetroPanel, MapComponent],
@@ -25,7 +26,11 @@ export class MetroPage implements OnInit {
   currentLine: string;
   
 
-  constructor(private stationService: StationsService, private colorService: ColorService, private saveService: SaveService) {
+  constructor(
+      private stationService: StationsService,
+      private colorService: ColorService,
+      private saveService: SaveService,
+      private geoService: GeoService) {
     this.correctStation = this.stationService.getCorrectMetroStation();
     this.stationsMetro = this.stationService.getMetroStations();
     this.autocompleteOptions.set(this.stationsMetro.map((station, index) => ({
@@ -58,7 +63,7 @@ export class MetroPage implements OnInit {
       lines: LinesResult.INCORRECT,
       length: NameLengthResult.SHORTER,
       date: DateResult.LATER,
-      direction: DirectionResult.NORTH
+      direction: this.geoService.getDirectionBetweenTwoCoords(selectedStation.coords, this.stationService.getCorrectMetroStation().coords)
     }
     //this.guesses.unshift(newGuess);
     this.saveService.addMetroGuess(newGuess);
