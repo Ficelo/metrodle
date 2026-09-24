@@ -51,19 +51,18 @@ export class MetroPage implements OnInit {
     console.log(selectedStation);
     console.log(`${selectedStation.label} is ${this.stationService.isMetroStationCorrect(selectedStation.label) ? 'correct' : 'incorrect'}`);
     this.createMetroGuess(this.stationService.getMetroStationByName(selectedStation.label)!);
-    
   }
 
   createMetroGuess(selectedStation: StationMetro) {
     this.mapComponent.addStationOnMap(selectedStation);
     const newGuess = {
       station: selectedStation,
-      name: true,
-      town: true,
-      lines: LinesResult.INCORRECT,
-      length: NameLengthResult.SHORTER,
-      date: DateResult.LATER,
-      direction: this.geoService.getDirectionBetweenTwoCoords(selectedStation.coords, this.stationService.getCorrectMetroStation().coords)
+      name: this.stationService.getNameResult(selectedStation.name, this.correctStation.name),
+      town: this.stationService.getTownResult(selectedStation.town, this.correctStation.town),
+      lines: this.stationService.getLinesResult(selectedStation.lines, this.correctStation.lines),
+      length: this.stationService.getNameLengthResult(selectedStation.name, this.correctStation.name),
+      date: this.stationService.getOpeningDateResult(selectedStation.openingDate, this.correctStation.openingDate),
+      direction: this.geoService.getDirectionBetweenTwoCoords(selectedStation.coords, this.correctStation.coords)
     }
     //this.guesses.unshift(newGuess);
     this.saveService.addMetroGuess(newGuess);
