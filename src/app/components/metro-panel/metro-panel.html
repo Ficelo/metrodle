@@ -20,6 +20,10 @@
         </div>
       }
     </div>
+
+    <!-- @if (guess().station.lines.length > 1) {
+      TODO: Maybe add this for the second image slot i'm not convinced on the look 
+    } -->
     <div id="line-icons-2">
       @if(guess().station.lines.length == 2) {
         <img 
@@ -62,7 +66,7 @@
       <div class="infos">
         <span class="middle-left-title">Direction</span>
         <span class="direction">
-          {{ guess()!.direction }}
+          {{ guess().direction == "correct" ? "×" : guess().direction }}
         </span>
       </div>
     </div>
@@ -72,8 +76,23 @@
           <div class="opening-date">{{guess().station.openingDate}}</div>
         </div>
         <div class="town-text">
-          <span class="town">{{guess().station.name}}</span>
-          : Signaler a nos agents tout objet abandonné ...
+          <!-- <span class="town">{{guess().station.name}}</span>
+          : Signaler a nos agents tout objet abandonné ... -->
+          <ul>
+            <li>Lignes : </li>
+            <li>Date d'ouverture : </li>
+            <li>Ville : </li>
+          </ul>
+          <ul class="town-answers">
+            <li>{{getLinesAnswerText(guess().lines)}}</li>
+            <li>{{getDateAnswerText(guess().date)}}</li>
+              @if (guess().town) {
+                <li>{{guess().station.town}}</li>
+              } 
+              @else {
+                <li class="crossed-text">{{guess().station.town}}</li>
+              }
+          </ul>
         </div>
       </div>
     </div>

@@ -154,5 +154,19 @@
     min-width: 0;
     overflow-wrap: anywhere;
     white-space: normal;
+    display: flex;
+}
 
+ul {
+    margin: 0;
+    padding-left: 7.5%;
+}
+
+.town-answers {
+    list-style-type: none;
+    padding: 2%;
+}
+
+.crossed-text {
+    text-decoration: line-through;
 }

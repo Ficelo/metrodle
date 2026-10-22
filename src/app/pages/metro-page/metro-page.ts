@@ -1,9 +1,8 @@
-import { Component, OnInit, ViewChild, signal } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild, signal } from '@angular/core';
 import { StationsService } from '../../services/stations.service';
 import { StationMetro } from '../../types/metro/metro-station';
 import { Autocomplete, AutocompleteOption } from "../../components/autocomplete/autocomplete";
 import { MetroGuessResult } from '../../types/metro/metro-guess';
-import { DateResult, DirectionResult, LinesResult, NameLengthResult } from '../../types/guess.enums';
 import { MetroPanel } from "../../components/metro-panel/metro-panel";
 import { MapComponent } from '../../components/map/map';
 import { ColorService } from '../../services/color.service';
@@ -16,7 +15,7 @@ import { GeoService } from '../../services/geo.service';
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
 })
-export class MetroPage implements OnInit {
+export class MetroPage implements OnInit, AfterViewInit {
 
   @ViewChild(MapComponent) mapComponent!: MapComponent;
   correctStation : StationMetro;
@@ -45,6 +44,12 @@ export class MetroPage implements OnInit {
     this.colorService.refreshCurrentMetroLine();
     this.currentLine = this.colorService.getCurrentMetroLine();
     this.guesses = this.saveService.getMetroSave().guesses;
+  }
+
+  ngAfterViewInit() {
+    for(let guess of this.guesses) {
+      this.mapComponent.addStationOnMap(guess.station)
+    }
   }
 
   onMetroSelected(selectedStation: AutocompleteOption) {
