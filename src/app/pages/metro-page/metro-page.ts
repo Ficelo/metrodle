@@ -8,9 +8,10 @@ import { MapComponent } from '../../components/map/map';
 import { ColorService } from '../../services/color.service';
 import { SaveService } from '../../services/save.service';
 import { GeoService } from '../../services/geo.service';
+import { UpButton } from '../../components/up-button/up-button';
 
 @Component({
-  imports: [Autocomplete, MetroPanel, MapComponent],
+  imports: [Autocomplete, MetroPanel, MapComponent, UpButton, UpButton],
   selector: 'app-metro-page',
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
