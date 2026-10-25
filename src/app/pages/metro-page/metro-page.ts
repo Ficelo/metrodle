@@ -9,9 +9,10 @@ import { ColorService } from '../../services/color.service';
 import { SaveService } from '../../services/save.service';
 import { GeoService } from '../../services/geo.service';
 import { UpButton } from '../../components/up-button/up-button';
+import { WinScreen } from '../../components/win-screen/win-screen';
 
 @Component({
-  imports: [Autocomplete, MetroPanel, MapComponent, UpButton, UpButton],
+  imports: [Autocomplete, MetroPanel, MapComponent, UpButton, UpButton, WinScreen],
   selector: 'app-metro-page',
   styleUrl: './metro-page.scss',
   templateUrl: './metro-page.html',
@@ -24,6 +25,7 @@ export class MetroPage implements OnInit, AfterViewInit {
   autocompleteOptions = signal<AutocompleteOption[]>([]);
   guesses: MetroGuessResult[] = [];
   currentLine: string;
+  found: boolean = false;
   
 
   constructor(
@@ -45,6 +47,7 @@ export class MetroPage implements OnInit, AfterViewInit {
     this.colorService.refreshCurrentMetroLine();
     this.currentLine = this.colorService.getCurrentMetroLine();
     this.guesses = this.saveService.getMetroSave().guesses;
+    this.found = this.saveService.getMetroSave().found;
   }
 
   ngAfterViewInit() {
@@ -70,7 +73,11 @@ export class MetroPage implements OnInit, AfterViewInit {
       date: this.stationService.getOpeningDateResult(selectedStation.openingDate, this.correctStation.openingDate),
       direction: this.geoService.getDirectionBetweenTwoCoords(selectedStation.coords, this.correctStation.coords)
     }
-    //this.guesses.unshift(newGuess);
+    
+    if(newGuess.name) {
+      this.found = true;
+    }
+
     this.saveService.addMetroGuess(newGuess);
   }
 }

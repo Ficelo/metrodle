@@ -1,6 +1,7 @@
 import { Service } from '@angular/core';
 import { MetroSave } from '../types/save';
 import { MetroGuessResult } from '../types/metro/metro-guess';
+import { StationMetro } from '../types/metro/metro-station';
 
 @Service()
 export class SaveService {
@@ -40,6 +41,9 @@ export class SaveService {
     }
 
     addMetroGuess(metroGuess: MetroGuessResult) {
+        if(metroGuess.name) {
+            this.metroSaveData.found = true;
+        }
         this.metroSaveData.guesses.unshift(metroGuess);
         this.saveMetroSave();
     }
