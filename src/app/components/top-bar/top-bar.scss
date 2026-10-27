@@ -11,7 +11,7 @@
 
 .metro-bar {
     position: absolute;
-    top: 30px;
+    top: 29px;
     left: 0;
     right: 0;
     height: 10px;
@@ -46,6 +46,7 @@
 .metro-circle {
     width: 32px;
     height: 32px;
+    transform: translateY(-4px);
     // background-color: #018E59;
     border-radius: 32px;
 }

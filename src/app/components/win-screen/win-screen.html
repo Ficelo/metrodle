@@ -4,7 +4,7 @@
         @if (imageUrl()) {
             <img class="station-image" [src]="imageUrl()" alt="Image {{correctStation.name}}">
         }
-        <p>Found {{correctStation.name}} in {{attempts()}} attempt(s).</p>
+        <p>Found <b>{{correctStation.name}}</b> in {{attempts()}} attempt(s).</p>
         <p>Come back tomorrow for a new challenge.</p>
         <button (click)="close()">Close</button>
     </div>
