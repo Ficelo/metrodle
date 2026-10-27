@@ -19,7 +19,10 @@
     }
     
     @if(found && showWinScreen) {
-        <metrodle-win-screen (onClosedUpate)="handleWinScreenClosed($event)" />
+        <metrodle-win-screen 
+            (onClosedUpate)="handleWinScreenClosed($event)"
+            [attempts]="guesses.length"
+            />
     }
 
     <metrodle-up-button />

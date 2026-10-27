@@ -1,9 +1,10 @@
 <div class="win-screen-wrapper">
     <div class="win-screen-message">
-        <h3>You won !</h3>
-        <p>
-            Found {{correctStation.name}} in {{attempts}} attemps.
-        </p>
+        <h3 class="win-screen-title">You won !</h3>
+        @if (imageUrl()) {
+            <img class="station-image" [src]="imageUrl()" alt="Image {{correctStation.name}}">
+        }
+        <p>Found {{correctStation.name}} in {{attempts()}} attempt(s).</p>
         <p>Come back tomorrow for a new challenge.</p>
         <button (click)="close()">Close</button>
     </div>

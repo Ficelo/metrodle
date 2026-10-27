@@ -28,7 +28,6 @@ export class MetroPage implements OnInit, AfterViewInit {
   found: boolean = false;
   showWinScreen = false;
   showLoseScreen = false;
-  
 
   constructor(
       private stationService: StationsService,

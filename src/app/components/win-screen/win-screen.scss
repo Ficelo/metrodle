@@ -7,6 +7,12 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.win-screen-title {
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 24px;
+    text-align: center;
+}
+
 .win-screen-message {
     margin: auto;
     align-items: center;
@@ -16,4 +22,9 @@
     width: 450px;
     border-radius: 5px;
     padding: 5px;
+}
+
+.station-image {
+    width: 450px;
+    border-radius: 5px;
 }
