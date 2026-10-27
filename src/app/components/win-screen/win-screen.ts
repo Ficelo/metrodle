@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 import { StationMetro } from '../../types/metro/metro-station';
 import { StationsService } from '../../services/stations.service';
 
@@ -13,8 +13,14 @@ export class WinScreen {
   correctStation : StationMetro;
   attempts = 0;
 
+  onClosedUpate = output<boolean>();
+
   constructor(private stationService: StationsService) {
     this.correctStation = this.stationService.getCorrectMetroStation();
+  }
+
+  close() {
+    this.onClosedUpate.emit(false);
   }
 
 }

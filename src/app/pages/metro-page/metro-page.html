@@ -18,8 +18,8 @@
         />
     }
     
-    @if(found) {
-        <metrodle-win-screen />
+    @if(found && showWinScreen) {
+        <metrodle-win-screen (onClosedUpate)="handleWinScreenClosed($event)" />
     }
 
     <metrodle-up-button />

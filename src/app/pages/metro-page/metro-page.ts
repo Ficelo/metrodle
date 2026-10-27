@@ -26,6 +26,8 @@ export class MetroPage implements OnInit, AfterViewInit {
   guesses: MetroGuessResult[] = [];
   currentLine: string;
   found: boolean = false;
+  showWinScreen = false;
+  showLoseScreen = false;
   
 
   constructor(
@@ -48,6 +50,9 @@ export class MetroPage implements OnInit, AfterViewInit {
     this.currentLine = this.colorService.getCurrentMetroLine();
     this.guesses = this.saveService.getMetroSave().guesses;
     this.found = this.saveService.getMetroSave().found;
+
+    this.showWinScreen = true;
+    this.showLoseScreen = true;
   }
 
   ngAfterViewInit() {
@@ -76,8 +81,14 @@ export class MetroPage implements OnInit, AfterViewInit {
     
     if(newGuess.name) {
       this.found = true;
+      this.showWinScreen = true;
     }
 
     this.saveService.addMetroGuess(newGuess);
   }
+
+  handleWinScreenClosed(event: boolean) {
+    this.showWinScreen = event;
+  }
+
 }
